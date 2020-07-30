@@ -321,6 +321,12 @@ Error message and password prompt
 
 <li>$:/plugins/tiddlywiki/highlight</li>
 
+<li>$:/plugins/tobibeer/appear</li>
+
+<li>$:/plugins/tobibeer/preview</li>
+
+<li>$:/plugins/tobibeer/preview/defaults/delay</li>
+
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
@@ -482,11 +488,11 @@ Error message and password prompt
 <div bag="default" created="20170629173808777" modified="20200504143324443" revision="0" title="$:/_sq/Stories/config/openLinkDivert" type="text/vnd.tiddlywiki">
 <pre>top</pre>
 </div>
-<div bag="default" created="20170616192704225" modified="20200502181012015" revision="0" tags="stroll" title="$:/_sq/Stories/config/sidebaroverlaybreakpoint" type="text/vnd.tiddlywiki">
+<div bag="default" created="20170616192704225" modified="20200521145811120" revision="0" tags="$:/giffmex/stroll" title="$:/_sq/Stories/config/sidebaroverlaybreakpoint" type="text/vnd.tiddlywiki">
 <pre>1100px</pre>
 </div>
-<div created="20200502183010768" modified="20200730225405896" tags="stroll" title="$:/_sq/Stories/config/Story2-storyview">
-<pre>zoomin</pre>
+<div created="20200502183010768" modified="20200521145819496" tags="$:/giffmex/stroll" title="$:/_sq/Stories/config/Story2-storyview">
+<pre>classic</pre>
 </div>
 <div bag="default" caption="{{$:/_sq/Stories/icons/divert-right.svg}} divert left/right" created="20170609055347900" description="Divert left/right" modified="20200730225316378" revision="0" tags="$:/tags/ViewToolbar" title="$:/_sq/Stories/divertTiddlerMacro" type="text/vnd.tiddlywiki">
 <pre>\define __me()
@@ -518,7 +524,7 @@ Error message and password prompt
 
 </pre>
 </div>
-<div bag="default" created="20170615140314952" list="" modified="20200730220838442" revision="8" tags="stroll" title="$:/_sq/Stories/Story2StoryList" type="text/vnd.tiddlywiki">
+<div bag="default" created="20170615140314952" list="" modified="20200521145810877" revision="8" tags="$:/giffmex/stroll" title="$:/_sq/Stories/Story2StoryList" type="text/vnd.tiddlywiki">
 <pre></pre>
 </div>
 <div bag="default" created="20200421214558221" modified="20200423161510720" revision="0" tags="tb $:/tags/Stylesheet" title="$:/.giffmex/.Stylesheet4popups" type="text/css">
@@ -556,7 +562,7 @@ display:block;
 
 </pre>
 </div>
-<div created="20191010123116672" modified="20200714164423185" tags="$:/tags/Stylesheet blinks stroll" title="$:/.giffmex/.Stylesheet4Stroll" type="text/css">
+<div created="20191010123116672" modified="20200714164402812" tags="$:/tags/Stylesheet $:/giffmex/stroll $:/giffmex/blinks" title="$:/.giffmex/.Stylesheet4Stroll" type="text/css">
 <pre>/*BOXES*/
 
 html body.tc-body .bluebox {display:block;background-color:#eef;padding:5px;padding-left:20px;padding-top:10px;margin-top:5px;margin-bottom:5px;width:95%;color:#000;}
@@ -660,7 +666,7 @@ background-color: &lt;&lt;colour tiddler-info-background&gt;&gt;;}
 }
 </pre>
 </div>
-<div bag="default" created="20200102141142879" modified="20200502175033991" revision="0" tags="stroll" title="$:/.giffmex/actions/new-journal" type="text/vnd.tiddlywiki">
+<div bag="default" created="20200102141142879" modified="20200521145811816" revision="0" tags="$:/giffmex/stroll" title="$:/.giffmex/actions/new-journal" type="text/vnd.tiddlywiki">
 <pre>&lt;$vars journalTitleTemplate={{$:/config/NewJournal/Title}} journalTags={{$:/config/NewJournal/Tags}} journalText=&quot;&quot;&gt;
 &lt;$wikify name=&quot;journalTitle&quot; text=&quot;&quot;&quot;&lt;$macrocall $name=&quot;now&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;&quot;&quot;&quot;&gt;
 &lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;journalTitle&gt;&gt; text=&quot;&quot;&gt;
@@ -673,7 +679,7 @@ background-color: &lt;&lt;colour tiddler-info-background&gt;&gt;;}
 &lt;/$vars&gt;
 </pre>
 </div>
-<div caption="{{$:/core/images/down-arrow}} {{$:/language/Buttons/More/Caption}}" created="20200519140835678" description="{{$:/language/Buttons/More/Hint}}" modified="20200521203326745" tags="$:/tags/EditToolbar $:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/.giffmex/Buttons/more-tiddler-edit-actions">
+<div caption="{{$:/core/images/down-arrow}} {{$:/language/Buttons/More/Caption}}" created="20200519140835678" description="{{$:/language/Buttons/More/Hint}}" modified="20200603190115295" tags="$:/tags/EditToolbar $:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/.giffmex/Buttons/more-tiddler-edit-actions">
 <pre>&lt;$button class=&quot;tc-btn-invisible&quot; popup=&quot;$:/SamplePopupState&quot;&gt;{{$:/core/images/chevron-down}}&lt;/$button&gt;
 
 &lt;$reveal type=&quot;popup&quot; state=&quot;$:/SamplePopupState&quot; class=&quot;tc-tiddler-body tc-drop-down tc-popup-keep&quot;&gt;
@@ -717,9 +723,9 @@ Grab snippets: e.g., `tiddlywiki --rendertiddlers [!is[system]] $:/core/template
 <div created="20200519150023135" modified="20200521203302683" tags="$:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/.giffmex/language/toolbar">
 <pre>toolbar</pre>
 </div>
-<div caption="{{$:/core/images/options-button}}" created="20200502183545567" modified="20200504211214587" tags="stroll $:/tags/SideBar" title="$:/.giffmex/sidebar/advancedconfig">
+<div caption="{{$:/core/images/options-button}}" created="20200502183545567" modified="20200521151207108" tags="$:/tags/SideBar $:/giffmex/stroll" title="$:/.giffmex/sidebar/advancedconfig">
 <pre>\define tagreset2() 
-&lt;$list filter=&quot;[tag[titleview]sort[created]] -[[$(currentTiddler)$]]&quot; variable=&quot;removeme&quot;&gt;
+&lt;$list filter=&quot;[tag[$:/giffmex/titleview]sort[created]] -[[$(currentTiddler)$]]&quot; variable=&quot;removeme&quot;&gt;
 &lt;$action-listops  $tiddler=&lt;&lt;removeme&gt;&gt; $tags=&quot;+[remove[$:/tags/ViewTemplate]]&quot;/&gt;
 &lt;/$list&gt;
 &lt;$action-deletefield dummy/&gt;
@@ -734,7 +740,7 @@ Grab snippets: e.g., `tiddlywiki --rendertiddlers [!is[system]] $:/core/template
 
 ''Choose how to view titles:''
 
-&lt;$list filter=&quot;[tag[titleview]sort[caption]]&quot;&gt;
+&lt;$list filter=&quot;[tag[$:/giffmex/titleview]sort[caption]]&quot;&gt;
 &lt;$list filter=&quot;[all[current]tag[$:/tags/ViewTemplate]]&quot;&gt;
 &lt;$checkbox field=dummy checked=&quot;yes&quot; unchecked=&quot;yes&quot; default=&quot;yes&quot;&gt;&lt;/$checkbox&gt;
 &lt;$view field=&quot;caption&quot;/&gt;&lt;br/&gt; 
@@ -751,9 +757,9 @@ Left column: &lt;&lt;switchStoryView $:/view zoomin&gt;&gt;
 
 Right column: &lt;&lt;switchStoryView $:/_sq/Stories/config/Story2-storyview classic&gt;&gt;</pre>
 </div>
-<div caption="{{$:/core/images/preview-open}}" created="20200129233103456" modified="20200503153200805" tags="$:/tags/SideBar stroll" title="$:/.giffmex/sidebar/tabs/strollcontrols">
+<div caption="{{$:/core/images/preview-open}}" created="20200129233103456" modified="20200521151510697" tags="$:/tags/SideBar $:/giffmex/stroll $:/giffmex/blinks" title="$:/.giffmex/sidebar/tabs/strollcontrols">
 <pre>\define tagreset() 
-&lt;$list filter=&quot;[tag[refs]sort[created]] -[[$(currentTiddler)$]]&quot; variable=&quot;removeme&quot;&gt;
+&lt;$list filter=&quot;[tag[$:/giffmex/refs]sort[created]] -[[$(currentTiddler)$]]&quot; variable=&quot;removeme&quot;&gt;
 &lt;$action-listops  $tiddler=&lt;&lt;removeme&gt;&gt; $tags=&quot;+[remove[$:/tags/ViewTemplate]]&quot;/&gt;
 &lt;/$list&gt;
 &lt;$action-deletefield dummy/&gt;
@@ -761,7 +767,7 @@ Right column: &lt;&lt;switchStoryView $:/_sq/Stories/config/Story2-storyview cla
 
 ''Choose how to view references:''
 
-&lt;$list filter=&quot;[tag[refs]sort[caption]]&quot;&gt;
+&lt;$list filter=&quot;[tag[$:/giffmex/refs]sort[caption]]&quot;&gt;
 &lt;$list filter=&quot;[all[current]tag[$:/tags/ViewTemplate]]&quot;&gt;
 &lt;$checkbox field=dummy checked=&quot;yes&quot; unchecked=&quot;yes&quot; default=&quot;yes&quot;&gt;&lt;/$checkbox&gt;
 &lt;$view field=&quot;caption&quot;/&gt;&lt;br/&gt; 
@@ -782,7 +788,7 @@ Right column: &lt;&lt;switchStoryView $:/_sq/Stories/config/Story2-storyview cla
     &quot;Muffin 2&quot;: &quot;hide&quot;
 }</pre>
 </div>
-<div created="20200418200434193" modified="20200502181156470" tags="stroll" title="$:/.giffmex/ui/EditTemplate">
+<div created="20200418200434193" modified="20200521150811768" tags="$:/giffmex/stroll $:/giffmex/blinks" title="$:/.giffmex/ui/EditTemplate">
 <pre>\define save-tiddler-actions()
 &lt;$action-sendmessage $message=&quot;tm-add-tag&quot; $param={{{ [&lt;newTagNameTiddler&gt;get[text]] }}}/&gt;
 &lt;$action-deletetiddler $tiddler=&lt;&lt;newTagNameTiddler&gt;&gt;/&gt;
@@ -810,7 +816,7 @@ Right column: &lt;&lt;switchStoryView $:/_sq/Stories/config/Story2-storyview cla
 &lt;/div&gt;
 </pre>
 </div>
-<div caption="Highlights in context" created="20200102141715979" modified="20200503154222003" tags="blinks refs stroll" title="$:/.giffmex/ViewTemplate/refscontext">
+<div caption="Highlights in context" created="20200102141715979" modified="20200521151342756" tags="$:/giffmex/stroll $:/giffmex/blinks $:/giffmex/refs" title="$:/.giffmex/ViewTemplate/refscontext">
 <pre>&lt;span class=&quot;viewtemplatebigtext&quot;&gt;
 
 &lt;$reveal type=&quot;nomatch&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=&quot;hide&quot; tag=&quot;div&quot; retain=&quot;yes&quot; animate=&quot;yes&quot;&gt;
@@ -826,10 +832,10 @@ Right column: &lt;&lt;switchStoryView $:/_sq/Stories/config/Story2-storyview cla
 
 &lt;/span&gt;</pre>
 </div>
-<div caption="Hidden" created="20200502165303215" creator="Quick Config" modified="20200503154220033" modifier="Quick Config" tags="blinks refs stroll" title="$:/.giffmex/ViewTemplate/refshidden" type="application/x-tiddler">
+<div caption="Hidden" created="20200502165303215" creator="Quick Config" modified="20200521151351420" modifier="Quick Config" tags="$:/giffmex/stroll $:/giffmex/blinks $:/giffmex/refs" title="$:/.giffmex/ViewTemplate/refshidden" type="application/x-tiddler">
 <pre></pre>
 </div>
-<div bag="default" caption="Simple links" created="20200126143031898" modified="20200504201318164" revision="0" tags="blinks refs stroll $:/tags/ViewTemplate" title="$:/.giffmex/ViewTemplate/refslinks" type="text/vnd.tiddlywiki">
+<div bag="default" caption="Simple links" created="20200126143031898" modified="20200521174932446" revision="0" tags="$:/giffmex/stroll $:/giffmex/blinks $:/giffmex/refs $:/tags/ViewTemplate" title="$:/.giffmex/ViewTemplate/refslinks" type="text/vnd.tiddlywiki">
 <pre>&lt;span class=&quot;viewtemplatebigtext&quot;&gt;
 
 &lt;$reveal type=&quot;nomatch&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=&quot;hide&quot; tag=&quot;div&quot; retain=&quot;yes&quot; animate=&quot;yes&quot;&gt;
@@ -845,7 +851,7 @@ Right column: &lt;&lt;switchStoryView $:/_sq/Stories/config/Story2-storyview cla
 
 &lt;/span&gt;</pre>
 </div>
-<div bag="default" caption="Full text" created="20200126142157739" modified="20200504145227118" revision="0" tags="blinks refs stroll" title="$:/.giffmex/ViewTemplate/refstranscludeclean" type="text/vnd.tiddlywiki">
+<div bag="default" caption="Full text" created="20200126142157739" modified="20200521151406793" revision="0" tags="$:/giffmex/stroll $:/giffmex/blinks $:/giffmex/refs" title="$:/.giffmex/ViewTemplate/refstranscludeclean" type="text/vnd.tiddlywiki">
 <pre>&lt;span class=&quot;viewtemplatebigtext&quot;&gt;
 
 &lt;$reveal type=&quot;nomatch&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=&quot;hide&quot; tag=&quot;div&quot; retain=&quot;yes&quot; animate=&quot;yes&quot;&gt;
@@ -858,7 +864,7 @@ Right column: &lt;&lt;switchStoryView $:/_sq/Stories/config/Story2-storyview cla
 
 &lt;/span&gt;</pre>
 </div>
-<div caption="Full text under sliders" created="20200126142157739" modified="20200504200732291" tags="blinks refs stroll" title="$:/.giffmex/ViewTemplate/refstranscludecollapse">
+<div caption="Full text under sliders" created="20200126142157739" modified="20200521151416013" tags="$:/giffmex/stroll $:/giffmex/blinks $:/giffmex/refs" title="$:/.giffmex/ViewTemplate/refstranscludecollapse">
 <pre>&lt;span class=&quot;viewtemplatebigtext&quot;&gt;
 
 &lt;$reveal type=&quot;nomatch&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=&quot;hide&quot; tag=&quot;div&quot; retain=&quot;yes&quot; animate=&quot;yes&quot;&gt;
@@ -883,7 +889,7 @@ Right column: &lt;&lt;switchStoryView $:/_sq/Stories/config/Story2-storyview cla
 &lt;/span&gt;
 </pre>
 </div>
-<div caption="Stroll default tiddler title position" created="20200418121047715" modified="20200730222726537" tags="stroll titleview" title="$:/.giffmex/ViewTemplate/title">
+<div caption="Stroll default tiddler title position" created="20200418121047715" modified="20200521151059626" tags="$:/tags/ViewTemplate $:/giffmex/stroll $:/giffmex/titleview" title="$:/.giffmex/ViewTemplate/title">
 <pre>\define title-styles()
 fill:$(foregroundColor)$;
 \end
@@ -923,7 +929,7 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 &lt;/$reveal&gt;
 &lt;/div&gt;</pre>
 </div>
-<div bag="default" caption="{{$:/core/images/new-button}} {{$:/language/Buttons/NewHere/Caption}}" created="20200127162624895" description="{{$:/language/Buttons/NewHere/Hint}}" modified="20200514215235262" revision="0" tags="$:/tags/ViewToolbar stroll" title="$:/.giffmex/ViewToolbar/new-note-here" type="text/vnd.tiddlywiki">
+<div bag="default" caption="{{$:/core/images/new-button}} {{$:/language/Buttons/NewHere/Caption}}" created="20200127162624895" description="{{$:/language/Buttons/NewHere/Hint}}" modified="20200521145813770" revision="0" tags="$:/tags/ViewToolbar $:/giffmex/stroll" title="$:/.giffmex/ViewToolbar/new-note-here" type="text/vnd.tiddlywiki">
 <pre>\define button()
 &lt;$button  tooltip={{$:/language/Buttons/NewHere/Hint}}  class=&lt;&lt;tv-config-toolbar-class&gt;&gt; actions=&lt;&lt;actions&gt;&gt;&gt;
 {{$:/core/images/new-button}}
@@ -939,7 +945,7 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 &lt;/$wikify&gt;
 </pre>
 </div>
-<div bag="default" caption="{{$:/core/images/new-journal-button}} {{$:/language/Buttons/NewJournalHere/Caption}}" created="20200127185823887" description="{{$:/language/Buttons/NewJournalHere/Hint}}" modified="20200510141629930" revision="0" tags="$:/tags/ViewToolbar stroll" title="$:/.giffmex/ViewToolbar/new-note-here-datetime" type="text/vnd.tiddlywiki">
+<div bag="default" caption="{{$:/core/images/new-journal-button}} {{$:/language/Buttons/NewJournalHere/Caption}}" created="20200127185823887" description="{{$:/language/Buttons/NewJournalHere/Hint}}" modified="20200521145814420" revision="0" tags="$:/tags/ViewToolbar $:/giffmex/stroll" title="$:/.giffmex/ViewToolbar/new-note-here-datetime" type="text/vnd.tiddlywiki">
 <pre>\whitespace trim
 
 \define journalButtonActions()
@@ -1004,7 +1010,7 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20200730222208553" modified="20200730222208553" title="$:/config/EditorToolbarButtons/Visibility/$:/core/ui/EditorToolbar/rotate-left">
 <pre>hide</pre>
 </div>
-<div bag="default" created="20191215203357897" modified="20200603122108780" revision="0" tags="$:/giffmex/stroll" title="$:/config/EditorTypeMappings/text/vnd.tiddlywiki" type="text/vnd.tiddlywiki">
+<div created="20200510024843460" modified="20200603121638626" tags="$:/giffmex/stroll $:/giffmex/blinks" title="$:/config/EditorTypeMappings/text/vnd.tiddlywiki">
 <pre>comptext</pre>
 </div>
 <div created="20200730220843608" modified="20200730220843608" title="$:/config/EditToolbarButtons/Visibility/$:/_sq/Stories/divertTiddlerEditMacro">
@@ -1016,31 +1022,31 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20200730222805540" modified="20200730222808109" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/delete">
 <pre>show</pre>
 </div>
-<div created="20200418141615149" modified="20200502181307400" tags="stroll" title="$:/config/Navigation/openLinkFromInsideRiver">
+<div created="20200418141615149" modified="20200521145817395" tags="$:/giffmex/stroll" title="$:/config/Navigation/openLinkFromInsideRiver">
 <pre>top</pre>
 </div>
-<div bag="default" created="20191225174624729" modified="20200502181315985" revision="0" tags="stroll" title="$:/config/NewJournal/Title" type="text/vnd.tiddlywiki">
+<div bag="default" created="20191225174624729" modified="20200521145811587" revision="0" tags="$:/giffmex/stroll" title="$:/config/NewJournal/Title" type="text/vnd.tiddlywiki">
 <pre>YYYY / 0MM / 0DD / 0hh:0mm:0ss /</pre>
 </div>
-<div bag="default" created="20200416201744386" modified="20200730222822283" revision="0" tags="stroll" title="$:/config/PageControlButtons/Visibility/$:/_sq/Stories/Templates/StoryTogglePageControl" type="text/vnd.tiddlywiki">
-<pre>hide</pre>
+<div bag="default" created="20200416201744386" modified="20200521145816127" revision="0" tags="$:/giffmex/stroll" title="$:/config/PageControlButtons/Visibility/$:/_sq/Stories/Templates/StoryTogglePageControl" type="text/vnd.tiddlywiki">
+<pre>show</pre>
 </div>
-<div created="20200502172232641" modified="20200502181339801" tags="stroll" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
+<div created="20200502172232641" modified="20200521145819082" tags="$:/giffmex/stroll" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>reveal</pre>
 </div>
 <div created="20200730222820222" modified="20200730222820222" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
 <pre>show</pre>
 </div>
-<div created="20200504150621926" modified="20200504150836176" tags="stroll" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
+<div created="20200504150621926" modified="20200521145820607" tags="$:/giffmex/stroll" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
 <pre>show</pre>
 </div>
-<div bag="default" created="20200106214031452" modified="20200502175035211" revision="0" tags="stroll" title="$:/config/RelinkOnRename" type="text/vnd.tiddlywiki">
+<div bag="default" created="20200106214031452" modified="20200521150810088" revision="0" tags="$:/giffmex/stroll $:/giffmex/blinks" title="$:/config/RelinkOnRename" type="text/vnd.tiddlywiki">
 <pre>yes</pre>
 </div>
-<div bag="default" created="20200414150157768" modified="20200502181428010" revision="0" tags="stroll" title="$:/config/Tiddlers/TitleLinks" type="text/vnd.tiddlywiki">
+<div bag="default" created="20200414150157768" modified="20200521145815908" revision="0" tags="$:/giffmex/stroll" title="$:/config/Tiddlers/TitleLinks" type="text/vnd.tiddlywiki">
 <pre>no</pre>
 </div>
-<div created="20200418200430409" modified="20200502181449794" tags="stroll" title="$:/config/ui/EditTemplate">
+<div created="20200418200430409" modified="20200521150811605" tags="$:/giffmex/stroll $:/giffmex/blinks" title="$:/config/ui/EditTemplate">
 <pre>$:/.giffmex/ui/EditTemplate</pre>
 </div>
 <div created="20200730222834471" modified="20200730222905595" title="$:/config/ViewToolbarButtons/Visibility/$:/_sq/Stories/divertTiddlerMacro">
@@ -1052,10 +1058,10 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20200730222857509" modified="20200730222857509" title="$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/new-note-here-datetime">
 <pre>hide</pre>
 </div>
-<div bag="default" created="20200416221420391" modified="20200502175040929" revision="0" tags="stroll" title="$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/viewtoolbar/viewrefs" type="text/vnd.tiddlywiki">
+<div bag="default" created="20200416221420391" modified="20200521145816337" revision="0" tags="$:/giffmex/stroll" title="$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/viewtoolbar/viewrefs" type="text/vnd.tiddlywiki">
 <pre>reveal</pre>
 </div>
-<div bag="default" created="20200210145131741" modified="20200502175039085" revision="0" tags="stroll" title="$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/viewrefscheckboxes" type="text/vnd.tiddlywiki">
+<div bag="default" created="20200210145131741" modified="20200521145815043" revision="0" tags="$:/giffmex/stroll" title="$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/viewrefscheckboxes" type="text/vnd.tiddlywiki">
 <pre>hide</pre>
 </div>
 <div created="20200730222916131" modified="20200730222921811" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close">
@@ -1064,8 +1070,8 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20200730222839331" modified="20200730222944576" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
 <pre>hide</pre>
 </div>
-<div created="20200418123214612" modified="20200730222844678" tags="stroll" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold">
-<pre>hide</pre>
+<div created="20200418123214612" modified="20200521145817188" tags="$:/giffmex/stroll" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold">
+<pre>reveal</pre>
 </div>
 <div created="20200504150240334" modified="20200504150259224" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-journal-here">
 <pre>hide</pre>
@@ -10518,7 +10524,7 @@ exports.has = function(source,operator,options) {
 })();
 </pre>
 </div>
-<div caption="{{$:/core/images/fold-button}} {{$:/language/Buttons/Fold/Caption}}" created="20200418122626540" description="{{$:/language/Buttons/Fold/Hint}}" modified="20200502181515860" tags="$:/tags/ViewToolbar intitle stroll" title="$:/core/ui/Buttons/fold">
+<div caption="{{$:/core/images/fold-button}} {{$:/language/Buttons/Fold/Caption}}" created="20200418122626540" description="{{$:/language/Buttons/Fold/Hint}}" modified="20200521151548830" tags="$:/tags/ViewToolbar $:/giffmex/stroll $:/giffmex/intitle" title="$:/core/ui/Buttons/fold">
 <pre>\whitespace trim
 &lt;$reveal type=&quot;nomatch&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=&quot;hide&quot; default=&quot;show&quot;&gt;
 &lt;$button tooltip={{$:/language/Buttons/Fold/Hint}} aria-label={{$:/language/Buttons/Fold/Caption}} class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;
@@ -10550,7 +10556,7 @@ exports.has = function(source,operator,options) {
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div caption="{{$:/language/ControlPanel/StoryView/Caption}}" created="20200502183313235" modified="20200502183313235" tags="$:/tags/ControlPanel/Appearance stroll" title="$:/core/ui/ControlPanel/StoryView">
+<div caption="{{$:/language/ControlPanel/StoryView/Caption}}" created="20200502183313235" modified="20200521145819732" tags="$:/tags/ControlPanel/Appearance $:/giffmex/stroll" title="$:/core/ui/ControlPanel/StoryView">
 <pre>{{$:/snippets/viewswitcher}}
 </pre>
 </div>
@@ -10560,7 +10566,7 @@ exports.has = function(source,operator,options) {
 <div created="20200502183202293" modified="20200502183202293" title="$:/core/ui/ControlPanel/StoryView 2">
 <pre></pre>
 </div>
-<div caption="TiddlyWiki default tiddler title position" created="20200418121129515" modified="20200730222726539" tags="stroll titleview $:/tags/ViewTemplate" title="$:/core/ui/ViewTemplate/title">
+<div caption="TiddlyWiki default tiddler title position" created="20200418121129515" modified="20200521151043861" tags="$:/giffmex/stroll $:/giffmex/titleview" title="$:/core/ui/ViewTemplate/title">
 <pre>\define title-styles()
 fill:$(foregroundColor)$;
 \end
@@ -10615,487 +10621,66 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20200730200841084" modified="20200730200841503" title="$:/GitHub/Username">
 <pre>L-A</pre>
 </div>
-<div contextplugin="(requires reload) Blocked plugin (due to incoming 2.1.0 being older than existing 2.1.0)" danielo515="" edit-comptext="(requires reload) Blocked plugin (due to incoming 0.8.1 being older than existing 0.8.1)" flibbles="" highlight="(requires reload) Blocked plugin (due to incoming 5.1.22 being older than existing 5.1.22)" message-$:="" message-$:/plugins/tobibeer/appear="(requires reload) " message-$:/plugins/tobibeer/preview="(requires reload) " plugin-type="import" plugins="" relink="(requires reload) Blocked plugin (due to incoming 1.9.1 being older than existing 1.9.1)" selection-$:="" selection-$:/plugins/danielo515/ContextPlugin="unchecked" selection-$:/plugins/flibbles/relink="unchecked" selection-$:/plugins/snowgoon88/edit-comptext="unchecked" selection-$:/plugins/sq/Stories="unchecked" selection-$:/plugins/tiddlywiki/highlight="unchecked" snowgoon88="" sq="" status="pending" stories="(requires reload) Blocked plugin (due to incoming 0.90 being older than existing 0.90)" tiddlywiki="" title="$:/Import" type="application/json">
-<pre>{
-    &quot;tiddlers&quot;: {
-        &quot;$:/language/Buttons/NewHere/Hint&quot;: {
-            &quot;text&quot;: &quot;Create a new tiddler that links to this one&quot;,
-            &quot;title&quot;: &quot;$:/language/Buttons/NewHere/Hint&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521145818275&quot;,
-            &quot;created&quot;: &quot;20200422192113402&quot;
-        },
-        &quot;$:/language/Buttons/NewJournalHere/Hint&quot;: {
-            &quot;text&quot;: &quot;Create a new journal tiddler that links to this one&quot;,
-            &quot;title&quot;: &quot;$:/language/Buttons/NewJournalHere/Hint&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521145818053&quot;,
-            &quot;created&quot;: &quot;20200422191645603&quot;
-        },
-        &quot;$:/config/NewJournal/Title&quot;: {
-            &quot;text&quot;: &quot;YYYY / 0MM / 0DD / 0hh:0mm:0ss /&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/config/NewJournal/Title&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145811587&quot;,
-            &quot;created&quot;: &quot;20191225174624729&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/core/ui/ControlPanel/StoryView&quot;: {
-            &quot;text&quot;: &quot;{{$:/snippets/viewswitcher}}\n&quot;,
-            &quot;title&quot;: &quot;$:/core/ui/ControlPanel/StoryView&quot;,
-            &quot;tags&quot;: &quot;$:/tags/ControlPanel/Appearance $:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521145819732&quot;,
-            &quot;created&quot;: &quot;20200502183313235&quot;,
-            &quot;caption&quot;: &quot;{{$:/language/ControlPanel/StoryView/Caption}}&quot;
-        },
-        &quot;$:/core/ui/ViewTemplate/title&quot;: {
-            &quot;text&quot;: &quot;\\define title-styles()\nfill:$(foregroundColor)$;\n\\end\n\\define config-title()\n$:/config/ViewToolbarButtons/Visibility/$(listItem)$\n\\end\n&lt;div class=\&quot;tc-tiddler-title\&quot;&gt;\n&lt;div class=\&quot;tc-titlebar\&quot;&gt;\n&lt;span class=\&quot;tc-tiddler-controls\&quot;&gt;\n&lt;$list filter=\&quot;[all[shadows+tiddlers]tag[$:/tags/ViewToolbar]!has[draft.of]]\&quot; variable=\&quot;listItem\&quot;&gt;&lt;$reveal type=\&quot;nomatch\&quot; state=&lt;&lt;config-title&gt;&gt; text=\&quot;hide\&quot;&gt;&lt;$set name=\&quot;tv-config-toolbar-class\&quot; filter=\&quot;[&lt;tv-config-toolbar-class&gt;] [&lt;listItem&gt;encodeuricomponent[]addprefix[tc-btn-]]\&quot;&gt;&lt;$transclude tiddler=&lt;&lt;listItem&gt;&gt;/&gt;&lt;/$set&gt;&lt;/$reveal&gt;&lt;/$list&gt;\n&lt;/span&gt;\n&lt;$set name=\&quot;tv-wikilinks\&quot; value={{$:/config/Tiddlers/TitleLinks}}&gt;\n&lt;$link&gt;\n&lt;$set name=\&quot;foregroundColor\&quot; value={{!!color}}&gt;\n&lt;span class=\&quot;tc-tiddler-title-icon\&quot; style=&lt;&lt;title-styles&gt;&gt;&gt;\n&lt;$transclude tiddler={{!!icon}}/&gt;\n&lt;/span&gt;\n&lt;/$set&gt;\n&lt;$list filter=\&quot;[all[current]removeprefix[$:/]]\&quot;&gt;\n&lt;h2 class=\&quot;tc-title\&quot; title={{$:/language/SystemTiddler/Tooltip}}&gt;\n&lt;span class=\&quot;tc-system-title-prefix\&quot;&gt;$:/&lt;/span&gt;&lt;$text text=&lt;&lt;currentTiddler&gt;&gt;/&gt;\n&lt;/h2&gt;\n&lt;/$list&gt;\n&lt;$list filter=\&quot;[all[current]!prefix[$:/]]\&quot;&gt;\n&lt;h2 class=\&quot;tc-title\&quot;&gt;\n&lt;$view field=\&quot;title\&quot;/&gt;\n&lt;/h2&gt;\n&lt;/$list&gt;\n&lt;/$link&gt;\n&lt;/$set&gt;\n&lt;/div&gt;\n\n&lt;$reveal type=\&quot;nomatch\&quot; text=\&quot;\&quot; default=\&quot;\&quot; state=&lt;&lt;tiddlerInfoState&gt;&gt; class=\&quot;tc-tiddler-info tc-popup-handle\&quot; animate=\&quot;yes\&quot; retain=\&quot;yes\&quot;&gt;\n\n&lt;$list filter=\&quot;[all[shadows+tiddlers]tag[$:/tags/TiddlerInfoSegment]!has[draft.of]] [[$:/core/ui/TiddlerInfo]]\&quot; variable=\&quot;listItem\&quot;&gt;&lt;$transclude tiddler=&lt;&lt;listItem&gt;&gt; mode=\&quot;block\&quot;/&gt;&lt;/$list&gt;\n\n&lt;/$reveal&gt;\n&lt;/div&gt;&quot;,
-            &quot;title&quot;: &quot;$:/core/ui/ViewTemplate/title&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/titleview&quot;,
-            &quot;modified&quot;: &quot;20200521151043861&quot;,
-            &quot;created&quot;: &quot;20200418121129515&quot;,
-            &quot;caption&quot;: &quot;TiddlyWiki default tiddler title position&quot;
-        },
-        &quot;$:/core/ui/Buttons/fold&quot;: {
-            &quot;text&quot;: &quot;\\whitespace trim\n&lt;$reveal type=\&quot;nomatch\&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=\&quot;hide\&quot; default=\&quot;show\&quot;&gt;\n&lt;$button tooltip={{$:/language/Buttons/Fold/Hint}} aria-label={{$:/language/Buttons/Fold/Caption}} class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;\n&lt;$action-sendmessage $message=\&quot;tm-fold-tiddler\&quot; $param=&lt;&lt;currentTiddler&gt;&gt; foldedState=&lt;&lt;folded-state&gt;&gt;/&gt;\n&lt;$list filter=\&quot;[&lt;tv-config-toolbar-icons&gt;match[yes]]\&quot; variable=\&quot;listItem\&quot;&gt;\n{{$:/core/images/fold-button}}\n&lt;/$list&gt;\n&lt;$list filter=\&quot;[&lt;tv-config-toolbar-text&gt;match[yes]]\&quot;&gt;\n&lt;span class=\&quot;tc-btn-text\&quot;&gt;\n&lt;$text text=\&quot; \&quot;/&gt;\n&lt;$text text={{$:/language/Buttons/Fold/Caption}}/&gt;\n&lt;/span&gt;\n&lt;/$list&gt;\n&lt;/$button&gt;\n&lt;/$reveal&gt;\n&lt;$reveal type=\&quot;match\&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=\&quot;hide\&quot; default=\&quot;show\&quot;&gt;\n&lt;$button tooltip={{$:/language/Buttons/Unfold/Hint}} aria-label={{$:/language/Buttons/Unfold/Caption}} class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;\n&lt;$action-sendmessage $message=\&quot;tm-fold-tiddler\&quot; $param=&lt;&lt;currentTiddler&gt;&gt; foldedState=&lt;&lt;folded-state&gt;&gt;/&gt;\n&lt;$list filter=\&quot;[&lt;tv-config-toolbar-icons&gt;match[yes]]\&quot; variable=\&quot;listItem\&quot;&gt;\n{{$:/core/images/unfold-button}}\n&lt;/$list&gt;\n&lt;$list filter=\&quot;[&lt;tv-config-toolbar-text&gt;match[yes]]\&quot;&gt;\n&lt;span class=\&quot;tc-btn-text\&quot;&gt;\n&lt;$text text=\&quot; \&quot;/&gt;\n&lt;$text text={{$:/language/Buttons/Unfold/Caption}}/&gt;\n&lt;/span&gt;\n&lt;/$list&gt;\n&lt;/$button&gt;\n&lt;/$reveal&gt;\n&quot;,
-            &quot;title&quot;: &quot;$:/core/ui/Buttons/fold&quot;,
-            &quot;tags&quot;: &quot;$:/tags/ViewToolbar $:/giffmex/stroll $:/giffmex/intitle&quot;,
-            &quot;modified&quot;: &quot;20200521151548830&quot;,
-            &quot;description&quot;: &quot;{{$:/language/Buttons/Fold/Hint}}&quot;,
-            &quot;created&quot;: &quot;20200418122626540&quot;,
-            &quot;caption&quot;: &quot;{{$:/core/images/fold-button}} {{$:/language/Buttons/Fold/Caption}}&quot;
-        },
-        &quot;$:/config/EditorTypeMappings/text/vnd.tiddlywiki&quot;: {
-            &quot;text&quot;: &quot;comptext&quot;,
-            &quot;title&quot;: &quot;$:/config/EditorTypeMappings/text/vnd.tiddlywiki&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/blinks&quot;,
-            &quot;modified&quot;: &quot;20200603121638626&quot;,
-            &quot;created&quot;: &quot;20200510024843460&quot;
-        },
-        &quot;$:/config/Navigation/openLinkFromInsideRiver&quot;: {
-            &quot;text&quot;: &quot;top&quot;,
-            &quot;title&quot;: &quot;$:/config/Navigation/openLinkFromInsideRiver&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521145817395&quot;,
-            &quot;created&quot;: &quot;20200418141615149&quot;
-        },
-        &quot;$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home&quot;: {
-            &quot;text&quot;: &quot;reveal&quot;,
-            &quot;title&quot;: &quot;$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521145819082&quot;,
-            &quot;created&quot;: &quot;20200502172232641&quot;
-        },
-        &quot;$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal&quot;: {
-            &quot;text&quot;: &quot;show&quot;,
-            &quot;title&quot;: &quot;$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521145820607&quot;,
-            &quot;created&quot;: &quot;20200504150621926&quot;
-        },
-        &quot;$:/config/Tiddlers/TitleLinks&quot;: {
-            &quot;text&quot;: &quot;no&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/config/Tiddlers/TitleLinks&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145815908&quot;,
-            &quot;created&quot;: &quot;20200414150157768&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold&quot;: {
-            &quot;text&quot;: &quot;reveal&quot;,
-            &quot;title&quot;: &quot;$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521145817188&quot;,
-            &quot;created&quot;: &quot;20200418123214612&quot;
-        },
-        &quot;$:/config/ui/EditTemplate&quot;: {
-            &quot;text&quot;: &quot;$:/.giffmex/ui/EditTemplate&quot;,
-            &quot;title&quot;: &quot;$:/config/ui/EditTemplate&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/blinks&quot;,
-            &quot;modified&quot;: &quot;20200521150811605&quot;,
-            &quot;created&quot;: &quot;20200418200430409&quot;
-        },
-        &quot;$:/palette&quot;: {
-            &quot;text&quot;: &quot;$:/palettes/Vanilla&quot;,
-            &quot;title&quot;: &quot;$:/palette&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521145815264&quot;,
-            &quot;created&quot;: &quot;20200228210954683&quot;
-        },
-        &quot;$:/tags/EditToolbar&quot;: {
-            &quot;text&quot;: &quot;&quot;,
-            &quot;title&quot;: &quot;$:/tags/EditToolbar&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/bigeditarea $:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521145647980&quot;,
-            &quot;list&quot;: &quot;$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save&quot;,
-            &quot;created&quot;: &quot;20200519141000553&quot;
-        },
-        &quot;$:/tags/PageControls&quot;: {
-            &quot;text&quot;: &quot;&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/tags/PageControls&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145814198&quot;,
-            &quot;list&quot;: &quot;$:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/.giffmex/buttons/newnote-datetime $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions&quot;,
-            &quot;created&quot;: &quot;20200127183739219&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/tags/ViewTemplate&quot;: {
-            &quot;text&quot;: &quot;&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/tags/ViewTemplate&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145814636&quot;,
-            &quot;list&quot;: &quot;$:/.giffmex/ViewTemplate/title $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/unfold $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/body $:/.giffmex/ViewTemplate/viewfullnotes $:/.giffmex/ViewTemplate/refscontext $:/.giffmex/ViewTemplate/refslinks $:/.giffmex/ViewTemplate/refstranscludecollapse&quot;,
-            &quot;created&quot;: &quot;20200128153730498&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/tags/ViewToolbar&quot;: {
-            &quot;text&quot;: &quot;&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/tags/ViewToolbar&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145813547&quot;,
-            &quot;list&quot;: &quot;$:/core/ui/Buttons/fold $:/.giffmex/ViewToolbar/new-note-here $:/.giffmex/ViewToolbar/new-note-here-datetime $:/.giffmex/viewtemplate/viewrefs $:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/info $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/edit $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/core/ui/Buttons/close $:/core/ui/Buttons/fold-others&quot;,
-            &quot;created&quot;: &quot;20200127144249151&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/view&quot;: {
-            &quot;text&quot;: &quot;classic&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/view&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145813991&quot;,
-            &quot;created&quot;: &quot;20200127165334843&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/plugins/danielo515/ContextPlugin/widgets/context.js&quot;: {
-            &quot;text&quot;: &quot;/*\\\\\ntitle: $:/core/modules/widgets/danielo/context-widget.js\ntype: application/javascript\nmodule-type: widget\n\nEdit-text widget\n\n\\*/\n(function(){\n\n/*jslint node: true, browser: true */\n/*global $tc: false */\n\&quot;use strict\&quot;;\n\nvar Widget = require(\&quot;$:/core/modules/widgets/widget.js\&quot;).widget;\nvar contextWidget = function(parseTreeNode,options) {\n\tthis.initialise(parseTreeNode,options);\n};\n\n/*\nInherit from the base widget class\n*/\ncontextWidget.prototype = new Widget();\n\n/*\nRender this widget into the DOM\n*/\ncontextWidget.prototype.render = function(parent,nextSibling) {\n   // Save the parent dom node\n\tthis.parentDomNode = parent;\n\t// Compute our attributes\n\tthis.computeAttributes();\n\t// Execute our logic\n\tthis.execute();\n    \n  if(this.term &amp;&amp; this.term.length&gt;3){\n     \n      this.createRegexp();\n      var matches = this.executeRegexp();\n\t  if(matches.length &gt; 0){ \n        this.domNode = this.document.createElement(this.element);\n        this.domNode.className=\&quot;tw-context\&quot;;\n        this.composeResults( matches ); //this appends to domNode        \n      \t// Insert element\n      \tparent.insertBefore(this.domNode,nextSibling);\n      \tthis.renderChildren(this.domNode,null);\n\t  \tthis.domNodes.push(this.domNode);\n      }\n  }\n\t\n};\n\n/*\nCompute the internal state of the widget\n*/\ncontextWidget.prototype.execute = function() {\n\t// Get the parameters from the attributes\n    this.matchedClass = this.getAttribute(\&quot;matchClass\&quot;,\&quot;matched\&quot;);\n\tthis.tiddler = this.getAttribute( \&quot;tiddler\&quot;,this.getVariable(\&quot;currentTiddler\&quot;) );\n    this.term =  this.getAttribute(\&quot;term\&quot;,this.getAttribute(\&quot;searchTerm\&quot;));\n\tthis.contextLength = this.getAttribute(\&quot;length\&quot;,50);\n    this.before = this.getAttribute(\&quot;before\&quot;,this.contextLength);\n    this.after = this.getAttribute(\&quot;after\&quot;,this.contextLength);\n    this.maxMatches = this.getAttribute(\&quot;maxMatches\&quot;,10);\n    this.element = this.getAttribute(\&quot;element\&quot;,\&quot;pre\&quot;);\n\tthis.makeChildWidgets();\n};\n\n  /*Create the regular expression*/\ncontextWidget.prototype.createRegexp = function()\n{\n  var regString = \&quot;(\\\\w+[\\\\s\\\\S]{0,#before#})?(#term#)([\\\\s\\\\S]{0,#after#}\\\\w+)?\&quot;;\n\n  var regString = regString.replace(\&quot;#before#\&quot;,this.before).replace(\&quot;#term#\&quot;, $tw.utils.escapeRegExp(this.term) ) .replace(\&quot;#after#\&quot;,this.after);\n  this.regexp = new RegExp(regString,\&quot;ig\&quot;);\n  //console.log(regString);\n};\n/*\nexecute the regular expresion\n*/\ncontextWidget.prototype.executeRegexp = function()\n{\n  var text = this.wiki.getTiddlerText(this.tiddler), match,results = new Array();\n  while( (match = this.regexp.exec( text ) ) &amp;&amp; (results.length &lt; this.maxMatches) )\n      { results.push(match) }\n  //console.log(\&quot;matches\&quot;,results);\n  return results;\n};\n\n/*\ncompose the results\nmatches : array of match objects from regular expression execute\n*/\ncontextWidget.prototype.composeResults = function(matches){\n var result=[], self=this, node = this.domNode,\n dots = textNode(\&quot;...\\n\&quot;),\n span = matchedNode( this.term );\n\n  for(var i=0; i &lt; matches.length; i++){\n   processMatch( matches[i] );\n }\n  \n  function processMatch(match){\n    if( match.index !== 0) node.appendChild( dots.cloneNode(true) );\n    for( var i=1;i&lt;match.length;i++ ) {//match[0] full matched text (all groups together)\n      if( match[i] ) {\n        if ( match[i].toLowerCase() == self.term.toLowerCase() ) \n          node.appendChild( match[i] == self.term ? span.cloneNode(true) : matchedNode( match[i] ) )\n          else\n            node.appendChild( textNode( match[i]) )\n      }\n    }\n    if( match.index + match[0].length &lt; match.input.length) node.appendChild( dots.cloneNode(true) );\n  }\n  \n  function textNode(text){ return self.document.createTextNode(text) }\n  function matchedNode(text) { \n    var node = self.document.createElement(\&quot;span\&quot;); node.appendChild( textNode(text) );  node.className = self.matchedClass;\n    return node }\n  \n};\n/*\nSelectively refreshes the widget if needed. Returns true if the widget or any of its children needed re-rendering\n*/\ncontextWidget.prototype.refresh = function(changedTiddlers) {\n\tvar changedAttributes = this.computeAttributes();\n\tif(changedAttributes.tiddler || changedAttributes.term || changedAttributes.length || changedAttributes.matchedClass) {\n\t\tthis.refreshSelf();\n\t\treturn true;\n\t}\n    return this.refreshChildren(changedTiddlers);\n};\n\nexports.context = contextWidget;\n\n})();&quot;,
-            &quot;type&quot;: &quot;application/javascript&quot;,
-            &quot;title&quot;: &quot;$:/plugins/danielo515/ContextPlugin/widgets/context.js&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/blinks&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;module-type&quot;: &quot;widget&quot;,
-            &quot;modifier&quot;: &quot;danielo&quot;,
-            &quot;modified&quot;: &quot;20200521150809407&quot;,
-            &quot;creator&quot;: &quot;danielo&quot;,
-            &quot;created&quot;: &quot;20140418153435777&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/plugins/danielo515/ContextPlugin/Caption&quot;: {
-            &quot;text&quot;: &quot;Context search&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/plugins/danielo515/ContextPlugin/Caption&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/blinks&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521150938691&quot;,
-            &quot;created&quot;: &quot;20140530174219263&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/plugins/snowgoon88/edit-comptext/config&quot;: {
-            &quot;text&quot;: &quot;{\n  \&quot;configuration\&quot;: {\n      \&quot;caseSensitive\&quot; : false,\n      \&quot;maxMatch\&quot; : 8,\n      \&quot;minPatLength\&quot; : 2,\n      \&quot;triggerKeyCombination\&quot; : \&quot;^ \&quot;\n  },\n  \&quot;template\&quot;: [{\n      \&quot;pattern\&quot;: \&quot;[[\&quot;,\n      \&quot;filter\&quot;: \&quot;[all[tiddlers]!is[system]]\&quot;,\n      \&quot;start\&quot;: \&quot;[[\&quot;,\n      \&quot;end\&quot;: \&quot;]]\&quot;\n      }\n  ]\n}\n&quot;,
-            &quot;type&quot;: &quot;application/json&quot;,
-            &quot;title&quot;: &quot;$:/plugins/snowgoon88/edit-comptext/config&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/blinks&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521150810244&quot;,
-            &quot;created&quot;: &quot;20200111192930718&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/_sq/Stories/config/sidebaroverlaybreakpoint&quot;: {
-            &quot;text&quot;: &quot;1100px&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/_sq/Stories/config/sidebaroverlaybreakpoint&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145811120&quot;,
-            &quot;created&quot;: &quot;20170616192704225&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/_sq/Stories/config/Story2-storyview&quot;: {
-            &quot;text&quot;: &quot;classic&quot;,
-            &quot;title&quot;: &quot;$:/_sq/Stories/config/Story2-storyview&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521145819496&quot;,
-            &quot;created&quot;: &quot;20200502183010768&quot;
-        },
-        &quot;$:/_sq/Stories/Story2StoryList&quot;: {
-            &quot;text&quot;: &quot;&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/_sq/Stories/Story2StoryList&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;8&quot;,
-            &quot;modified&quot;: &quot;20200521145810877&quot;,
-            &quot;list&quot;: &quot;&quot;,
-            &quot;created&quot;: &quot;20170615140314952&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/.giffmex/.Stylesheet4Stroll&quot;: {
-            &quot;text&quot;: &quot;/*BOXES*/\n\nhtml body.tc-body .bluebox {display:block;background-color:#eef;padding:5px;padding-left:20px;padding-top:10px;margin-top:5px;margin-bottom:5px;width:95%;color:#000;}\n\nhtml body.tc-body .graybox {display:block;background-color:#eee;padding:5px;padding-left:20px;padding-top:10px;margin-top:5px;margin-bottom:5px;width:95%;color:#000;}\n\nbody p {&lt;&lt;colour foreground&gt;&gt;;}\ncode {color: #b0a;background-color:#eee;}\n\n/*TIGHT NOTES*/\n\nhtml body.tc-body h1, html body.tc-body h2, html body.tc-body h3, html body.tc-body h4 { margin-top: 0.3em; margin-bottom: 0.3em; }\n\n/*FONT SUBTITLES*/\n\n.serif {font-family: 'Arial', sans-serif; color: &lt;&lt;colour tiddler-editor-border&gt;&gt;font-size:10pt;}\n\nhtml body.tc-body .serif a.tc-tiddlylink-external {font-family: 'Arial', sans-serif;font-size:12pt; line-height:normal;font-weight:normal;color:#666;}\n\n/*FONT STUFF (colors)*/\n\nhtml body.tc-body .lightgraybk {background:#eee;padding:1px 4px px 4px;margin-bottom:2px;font-family:'Arial', sans-serif;}\n\n.red {color:red;}\nhtml body.tc-body .blue a {color:blue;}\n\n/*FONT STUFF SOURCES*/\n\nhtml body.tc-body .source {color:#777;font-size:10pt;}\n\n/*ICON COLORS*/\n\nhtml body.tc-body .tc-image-edit-button {stroke: white;fill:#555;}\nhtml body.tc-body .tc-image-chevron-up {stroke: white;fill:#ccc;}\nhtml body.tc-body .tc-image-chevron-down {stroke: white;fill:#ccc;}\nhtml body.tc-body .tc-image-fold-button {stroke: white;fill:#ccc;}\nhtml body.tc-body .tc-image-close-button {stroke: white;fill:#555;}\nhtml body.tc-body .tc-image-unfold-button {stroke: white;fill:#ccc;}\nhtml body.tc-body .tc-image-preview-open {stroke: white;fill:#f29;font-size:150%;}\nhtml body.tc-body .tc-image-delete-button {stroke: white;fill:#ff2222;}\nhtml body.tc-body .tc-image-cancel-button {stroke: white;fill:#ffdd55;}\nhtml body.tc-body .tc-image-done-button {stroke: white;fill:#094;}\n\n/*INDENTING*/\n\nhtml body.tc-body .indent1 {margin-left:1.5em;display:block;}\n\n/*LINKS*/\n\nhtml body.tc-body a.tc-tiddlylink {text-decoration: none;font-style: normal;font-weight: normal;} \nhtml body.tc-body a.tc-tiddlylink-external {text-decoration: none;font-weight: normal;}\nhtml body.tc-body a.tc-tiddlylink-visited {text-decoration: none;font-weight: normal;}\n\nhtml body.tc-body .source a.tc-tiddlylink-external {font-weight: normal;font-size:10pt;}\n\n/*LISTS BASIC*/\n\nhtml body.tc-body ul li {color: &lt;&lt;colour foreground&gt;&gt;;}\nhtml body.tc-body ol li {color:&lt;&lt;colour foreground&gt;&gt;;}\n\n/*TIDDLER TITLES*/\n\n.tc-tiddler-missing .tc-title { font-style: normal; font-weight: bold; }\n\n/*VIEWTEMPLATE FONT SIZE*/\n\nhtml body.tc-body .viewtemplatebigtext {font-size:110%;}\n\n/*HIDE SECTIONS FOR PRINTING*/\n\n@media print {#tc-page-background {display: none ! important;}} \n@media print {.tc-tags-wrapper {display: none ! important;}} \n\n @media print { body.tc-body {background-color: transparent;}}\n @media print {.tc-image-chevron-up {display: none ! important;}} \n @media print {.tc-image-chevron-down {display: none ! important;}} \n @media print {button.sidebar-toggle {display: none ! important;}} \n@media print {.hideprint {display: none ! important;}} \n@media print {.tc-btn-invisible {display: none ! important;}} \n\n@media print {\n\n.story-river {\nmargin: 0;\npadding: 0;\n}\n\nhtml body.tc-body .tc-tiddler-frame {\nmargin: 0;\nborder-bottom: 1px solid #fff;\npadding: 5px;}\n\nhtml body.tc-body a.tc-tiddlylink-external:hover {\nborder: 1px solid &lt;&lt;colour tiddler-border&gt;&gt;;\n}\n\nhtml body.tc-body .tc-tiddler-info {\npadding: 14px 42px 14px 42px;\nbackground-color: &lt;&lt;colour tiddler-info-background&gt;&gt;;}\n\n}\n&quot;,
-            &quot;type&quot;: &quot;text/css&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/.Stylesheet4Stroll&quot;,
-            &quot;tags&quot;: &quot;$:/tags/Stylesheet $:/giffmex/stroll $:/giffmex/blinks&quot;,
-            &quot;modified&quot;: &quot;20200714164402812&quot;,
-            &quot;created&quot;: &quot;20191010123116672&quot;
-        },
-        &quot;$:/.giffmex/actions/new-journal&quot;: {
-            &quot;text&quot;: &quot;&lt;$vars journalTitleTemplate={{$:/config/NewJournal/Title}} journalTags={{$:/config/NewJournal/Tags}} journalText=\&quot;\&quot;&gt;\n&lt;$wikify name=\&quot;journalTitle\&quot; text=\&quot;\&quot;\&quot;&lt;$macrocall $name=\&quot;now\&quot; format=&lt;&lt;journalTitleTemplate&gt;&gt;/&gt;\&quot;\&quot;\&quot;&gt;\n&lt;$reveal type=\&quot;nomatch\&quot; state=&lt;&lt;journalTitle&gt;&gt; text=\&quot;\&quot;&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=\&quot;\&quot; text={{{ [&lt;journalTitle&gt;get[]] }}}/&gt;\n&lt;/$reveal&gt;\n&lt;$reveal type=\&quot;match\&quot; state=&lt;&lt;journalTitle&gt;&gt; text=\&quot;\&quot;&gt;\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot; title=&lt;&lt;journalTitle&gt;&gt; tags=\&quot;\&quot; text=&lt;&lt;journalText&gt;&gt;/&gt;\n&lt;/$reveal&gt;\n&lt;/$wikify&gt;\n&lt;/$vars&gt;\n&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/actions/new-journal&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145811816&quot;,
-            &quot;created&quot;: &quot;20200102141142879&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/.giffmex/Buttons/more-tiddler-edit-actions&quot;: {
-            &quot;text&quot;: &quot;&lt;$button class=\&quot;tc-btn-invisible\&quot; popup=\&quot;$:/SamplePopupState\&quot;&gt;{{$:/core/images/chevron-down}}&lt;/$button&gt;\n\n&lt;$reveal type=\&quot;popup\&quot; state=\&quot;$:/SamplePopupState\&quot; class=\&quot;tc-tiddler-body tc-drop-down tc-popup-keep\&quot;&gt;\n\n&lt;$checkbox tiddler=\&quot;$:/core/ui/EditTemplate/title\&quot; tag=\&quot;$:/tags/EditTemplate\&quot;&gt; title&lt;/$checkbox&gt;&lt;br&gt;\n&lt;$checkbox tiddler=\&quot;$:/core/ui/EditTemplate/tags\&quot; tag=\&quot;$:/tags/EditTemplate\&quot;&gt; tags&lt;/$checkbox&gt;&lt;br&gt;\n&lt;$checkbox tiddler=\&quot;$:/core/ui/EditTemplate/type\&quot; tag=\&quot;$:/tags/EditTemplate\&quot;&gt; type&lt;/$checkbox&gt;&lt;br&gt;\n&lt;$checkbox tiddler=\&quot;$:/core/ui/EditTemplate/fields\&quot; tag=\&quot;$:/tags/EditTemplate\&quot;&gt; fields&lt;/$checkbox&gt;&lt;br&gt;\n&lt;$checkbox tiddler=\&quot;$:/config/TextEditor/EnableToolbar\&quot; field=\&quot;text\&quot; checked=\&quot;yes\&quot; unchecked=\&quot;no\&quot; default=\&quot;no\&quot;&gt; toolbar&lt;/$checkbox&gt;&lt;br&gt;\n&lt;$checkbox tiddler=\&quot;$:/.giffmex/EditTemplate/custom\&quot; tag=\&quot;$:/tags/EditTemplate\&quot;&gt; custom&lt;/$checkbox&gt;\n\n''Open / close the sidebar:'' &lt;$list filter=\&quot;[[$:/state/sidebar]get[text]] +[else[yes]!match[no]]\&quot; variable=\&quot;ignore\&quot;&gt;&lt;$button set=\&quot;$:/state/sidebar\&quot; setTo=\&quot;no\&quot; tooltip={{$:/language/Buttons/HideSideBar/Hint}} aria-label={{$:/language/Buttons/HideSideBar/Caption}} class=\&quot;tc-btn-invisible\&quot;&gt;{{$:/core/images/chevron-right}}&lt;/$button&gt;\n&lt;/$list&gt;&lt;$list filter=\&quot;[[$:/state/sidebar]get[text]] +[else[yes]match[no]]\&quot; variable=\&quot;ignore\&quot;&gt;\n&lt;$button set=\&quot;$:/state/sidebar\&quot; setTo=\&quot;yes\&quot; tooltip={{$:/language/Buttons/ShowSideBar/Hint}} aria-label={{$:/language/Buttons/ShowSideBar/Caption}} class=\&quot;tc-btn-invisible\&quot;&gt;{{$:/core/images/chevron-left}}&lt;/$button&gt;\n&lt;/$list&gt;\n\n''Click the link below to edit the''&lt;br&gt; [[Custom area|$:/.giffmex/EditTemplate/custom]]\n\n{{$:/core/ui/EditorToolbar/editor-height-dropdown}}\n\n&lt;/$reveal&gt;&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/Buttons/more-tiddler-edit-actions&quot;,
-            &quot;tags&quot;: &quot;$:/tags/EditToolbar $:/giffmex/bigeditarea $:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200603190115295&quot;,
-            &quot;description&quot;: &quot;{{$:/language/Buttons/More/Hint}}&quot;,
-            &quot;created&quot;: &quot;20200519140835678&quot;,
-            &quot;caption&quot;: &quot;{{$:/core/images/down-arrow}} {{$:/language/Buttons/More/Caption}}&quot;
-        },
-        &quot;$:/.giffmex/EditTemplate/custom&quot;: {
-            &quot;text&quot;: &quot;\&quot;\&quot;\&quot;\nThis is where you can add your own items you want visible in the edit template. For example:\n\nGrab symbol code: e.g.,  &amp;#9830; `&amp;#9830;`  &amp;#9733; `&amp;#9733;`\n\nGrab snippets: e.g., `tiddlywiki --rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html static text/plain --rendertiddler $:/core/templates/static.template.css static/static.css text/plain`\n\&quot;\&quot;\&quot;\n&lt;br&gt;&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/EditTemplate/custom&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/bigeditarea $:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521203314462&quot;,
-            &quot;list-before&quot;: &quot;$:/core/ui/EditTemplate/body&quot;,
-            &quot;created&quot;: &quot;20191220121428434&quot;
-        },
-        &quot;$:/.giffmex/language/toolbar&quot;: {
-            &quot;text&quot;: &quot;toolbar&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/language/toolbar&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/bigeditarea $:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521203302683&quot;,
-            &quot;created&quot;: &quot;20200519150023135&quot;
-        },
-        &quot;$:/.giffmex/sidebar/advancedconfig&quot;: {
-            &quot;text&quot;: &quot;\\define tagreset2() \n&lt;$list filter=\&quot;[tag[$:/giffmex/titleview]sort[created]] -[[$(currentTiddler)$]]\&quot; variable=\&quot;removeme\&quot;&gt;\n&lt;$action-listops  $tiddler=&lt;&lt;removeme&gt;&gt; $tags=\&quot;+[remove[$:/tags/ViewTemplate]]\&quot;/&gt;\n&lt;/$list&gt;\n&lt;$action-deletefield dummy/&gt;\n\\end\n\n\\define switchStoryView(storyview,default)\n&lt;$select tiddler='$storyview$' default='$default$'&gt;\n&lt;option value=\&quot;zoomin\&quot;&gt;&lt;$text text='one tiddler only'/&gt;&lt;/option&gt;\n&lt;option value=\&quot;classic\&quot;&gt;&lt;$text text='multiple tiddlers'/&gt;&lt;/option&gt;\n&lt;/$select&gt;\n\\end\n\n''Choose how to view titles:''\n\n&lt;$list filter=\&quot;[tag[$:/giffmex/titleview]sort[caption]]\&quot;&gt;\n&lt;$list filter=\&quot;[all[current]tag[$:/tags/ViewTemplate]]\&quot;&gt;\n&lt;$checkbox field=dummy checked=\&quot;yes\&quot; unchecked=\&quot;yes\&quot; default=\&quot;yes\&quot;&gt;&lt;/$checkbox&gt;\n&lt;$view field=\&quot;caption\&quot;/&gt;&lt;br/&gt; \n&lt;/$list&gt;\n&lt;$list filter=\&quot;[all[current]!tag[$:/tags/ViewTemplate]]\&quot;&gt;\n&lt;$checkbox tag=\&quot;$:/tags/ViewTemplate\&quot; xinvertTag=\&quot;yes\&quot; checkactions=&lt;&lt;tagreset2&gt;&gt;/&gt; &lt;$view field=\&quot;caption\&quot;/&gt;&lt;br/&gt; \n&lt;/$list&gt;\n&lt;/$list&gt;\n&lt;br&gt;\n\n''Choose how to view tiddlers in each column''\n\nLeft column: &lt;&lt;switchStoryView $:/view zoomin&gt;&gt;\n\nRight column: &lt;&lt;switchStoryView $:/_sq/Stories/config/Story2-storyview classic&gt;&gt;&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/sidebar/advancedconfig&quot;,
-            &quot;tags&quot;: &quot;$:/tags/SideBar $:/giffmex/stroll&quot;,
-            &quot;modified&quot;: &quot;20200521151207108&quot;,
-            &quot;created&quot;: &quot;20200502183545567&quot;,
-            &quot;caption&quot;: &quot;{{$:/core/images/options-button}}&quot;
-        },
-        &quot;$:/.giffmex/sidebar/tabs/strollcontrols&quot;: {
-            &quot;text&quot;: &quot;\\define tagreset() \n&lt;$list filter=\&quot;[tag[$:/giffmex/refs]sort[created]] -[[$(currentTiddler)$]]\&quot; variable=\&quot;removeme\&quot;&gt;\n&lt;$action-listops  $tiddler=&lt;&lt;removeme&gt;&gt; $tags=\&quot;+[remove[$:/tags/ViewTemplate]]\&quot;/&gt;\n&lt;/$list&gt;\n&lt;$action-deletefield dummy/&gt;\n\\end\n\n''Choose how to view references:''\n\n&lt;$list filter=\&quot;[tag[$:/giffmex/refs]sort[caption]]\&quot;&gt;\n&lt;$list filter=\&quot;[all[current]tag[$:/tags/ViewTemplate]]\&quot;&gt;\n&lt;$checkbox field=dummy checked=\&quot;yes\&quot; unchecked=\&quot;yes\&quot; default=\&quot;yes\&quot;&gt;&lt;/$checkbox&gt;\n&lt;$view field=\&quot;caption\&quot;/&gt;&lt;br/&gt; \n&lt;/$list&gt;\n&lt;$list filter=\&quot;[all[current]!tag[$:/tags/ViewTemplate]]\&quot;&gt;\n&lt;$checkbox tag=\&quot;$:/tags/ViewTemplate\&quot; xinvertTag=\&quot;yes\&quot; checkactions=&lt;&lt;tagreset&gt;&gt;/&gt; &lt;$view field=\&quot;caption\&quot;/&gt;&lt;br/&gt; \n&lt;/$list&gt;\n&lt;/$list&gt;\n\n{{Hint for Muffin tutorial}}\n\n&lt;br&gt;Note that the gray boxes in the context and transclude options are links to their respective tiddlers.&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/sidebar/tabs/strollcontrols&quot;,
-            &quot;tags&quot;: &quot;$:/tags/SideBar $:/giffmex/stroll $:/giffmex/blinks&quot;,
-            &quot;modified&quot;: &quot;20200521151510697&quot;,
-            &quot;created&quot;: &quot;20200129233103456&quot;,
-            &quot;caption&quot;: &quot;{{$:/core/images/preview-open}}&quot;
-        },
-        &quot;$:/.giffmex/ui/EditTemplate&quot;: {
-            &quot;text&quot;: &quot;\\define save-tiddler-actions()\n&lt;$action-sendmessage $message=\&quot;tm-add-tag\&quot; $param={{{ [&lt;newTagNameTiddler&gt;get[text]] }}}/&gt;\n&lt;$action-deletetiddler $tiddler=&lt;&lt;newTagNameTiddler&gt;&gt;/&gt;\n&lt;$action-sendmessage $message=\&quot;tm-add-field\&quot; $name={{{ [&lt;newFieldNameTiddler&gt;get[text]] }}} $value={{{ [&lt;newFieldValueTiddler&gt;get[text]] }}}/&gt;\n&lt;$action-deletetiddler $tiddler=&lt;&lt;newFieldNameTiddler&gt;&gt;/&gt;\n&lt;$action-deletetiddler $tiddler=&lt;&lt;newFieldValueTiddler&gt;&gt;/&gt;\n&lt;$action-sendmessage $message=\&quot;tm-save-tiddler\&quot;/&gt;\n&lt;$list filter=\&quot;[all[current]links[]is[missing]]\&quot;&gt;&lt;$action-createtiddler $basetitle=&lt;&lt;currentTiddler&gt;&gt;/&gt;&lt;/$list&gt;\n\n\\end\n&lt;div data-tiddler-title=&lt;&lt;currentTiddler&gt;&gt; data-tags={{!!tags}} class={{{ tc-tiddler-frame tc-tiddler-edit-frame [&lt;currentTiddler&gt;is[tiddler]then[tc-tiddler-exists]] [&lt;currentTiddler&gt;is[missing]!is[shadow]then[tc-tiddler-missing]] [&lt;currentTiddler&gt;is[shadow]then[tc-tiddler-exists tc-tiddler-shadow]] [&lt;currentTiddler&gt;is[system]then[tc-tiddler-system]] [{!!class}] [&lt;currentTiddler&gt;tags[]encodeuricomponent[]addprefix[tc-tagged-]] +[join[ ]] }}}&gt;\n&lt;$fieldmangler&gt;\n&lt;$vars storyTiddler=&lt;&lt;currentTiddler&gt;&gt; newTagNameTiddler=&lt;&lt;qualify \&quot;$:/temp/NewTagName\&quot;&gt;&gt; newFieldNameTiddler=&lt;&lt;qualify \&quot;$:/temp/NewFieldName\&quot;&gt;&gt; newFieldValueTiddler=&lt;&lt;qualify \&quot;$:/temp/NewFieldValue\&quot;&gt;&gt;&gt;\n&lt;$keyboard key=\&quot;((cancel-edit-tiddler))\&quot; message=\&quot;tm-cancel-tiddler\&quot;&gt;\n&lt;$keyboard key=\&quot;((save-tiddler))\&quot; actions=&lt;&lt;save-tiddler-actions&gt;&gt;&gt;\n&lt;$list filter=\&quot;[all[shadows+tiddlers]tag[$:/tags/EditTemplate]!has[draft.of]]\&quot; variable=\&quot;listItem\&quot;&gt;\n&lt;$set name=\&quot;tv-config-toolbar-class\&quot; filter=\&quot;[&lt;tv-config-toolbar-class&gt;] [&lt;listItem&gt;encodeuricomponent[]addprefix[tc-btn-]]\&quot;&gt;\n&lt;$transclude tiddler=&lt;&lt;listItem&gt;&gt;/&gt;\n&lt;/$set&gt;\n&lt;/$list&gt;\n&lt;/$keyboard&gt;\n&lt;/$keyboard&gt;\n&lt;/$vars&gt;\n&lt;/$fieldmangler&gt;\n&lt;/div&gt;\n&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/ui/EditTemplate&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/blinks&quot;,
-            &quot;modified&quot;: &quot;20200521150811768&quot;,
-            &quot;created&quot;: &quot;20200418200434193&quot;
-        },
-        &quot;$:/.giffmex/ViewTemplate/refscontext&quot;: {
-            &quot;text&quot;: &quot;&lt;span class=\&quot;viewtemplatebigtext\&quot;&gt;\n\n&lt;$reveal type=\&quot;nomatch\&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=\&quot;hide\&quot; tag=\&quot;div\&quot; retain=\&quot;yes\&quot; animate=\&quot;yes\&quot;&gt;\n\n&lt;hr&gt;\n\n&lt;$vars searchme=&lt;&lt;currentTiddler&gt;&gt; searchspx={{{ [&lt;currentTiddler&gt;escaperegexp[]]}}} &gt;\n\n&lt;$list filter=\&quot;[!is[system]all[current]backlinks[]!tag[outlines]!tag[hide]sort[title]] -[is[current]]\&quot;&gt;&lt;$link&gt;&lt;$view field=\&quot;title\&quot;/&gt;&lt;/$link&gt;&lt;span class=\&quot;indent1\&quot;&gt;&lt;$link&gt;&lt;span class=\&quot;graybox\&quot;&gt;&lt;$context term=&lt;&lt;searchme&gt;&gt; /&gt;&lt;/span&gt;&lt;/$link&gt;&lt;/span&gt;&lt;/$list&gt;\n&lt;/$vars&gt;\n\n&lt;/$reveal&gt;\n\n&lt;/span&gt;&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/ViewTemplate/refscontext&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/blinks $:/giffmex/refs&quot;,
-            &quot;modified&quot;: &quot;20200521151342756&quot;,
-            &quot;created&quot;: &quot;20200102141715979&quot;,
-            &quot;caption&quot;: &quot;Highlights in context&quot;
-        },
-        &quot;$:/.giffmex/ViewTemplate/refshidden&quot;: {
-            &quot;text&quot;: &quot;&quot;,
-            &quot;type&quot;: &quot;application/x-tiddler&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/ViewTemplate/refshidden&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/blinks $:/giffmex/refs&quot;,
-            &quot;modifier&quot;: &quot;Quick Config&quot;,
-            &quot;modified&quot;: &quot;20200521151351420&quot;,
-            &quot;creator&quot;: &quot;Quick Config&quot;,
-            &quot;created&quot;: &quot;20200502165303215&quot;,
-            &quot;caption&quot;: &quot;Hidden&quot;
-        },
-        &quot;$:/.giffmex/ViewTemplate/refslinks&quot;: {
-            &quot;text&quot;: &quot;&lt;span class=\&quot;viewtemplatebigtext\&quot;&gt;\n\n&lt;$reveal type=\&quot;nomatch\&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=\&quot;hide\&quot; tag=\&quot;div\&quot; retain=\&quot;yes\&quot; animate=\&quot;yes\&quot;&gt;\n\n&lt;hr&gt;\n\n&lt;$vars searchme=&lt;&lt;currentTiddler&gt;&gt; searchspx={{{ [&lt;currentTiddler&gt;escaperegexp[]]}}} &gt;\n\n&lt;$list filter=\&quot;[!is[system]all[current]backlinks[]!tag[hide]sort[title]] -[is[current]]\&quot;&gt;&lt;$link&gt;&lt;$view field=\&quot;title\&quot; /&gt;&lt;/$link&gt;&lt;br&gt;&lt;/$list&gt;\n&lt;/$vars&gt;\n\n&lt;/$reveal&gt;\n\n&lt;/span&gt;&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/ViewTemplate/refslinks&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/blinks $:/giffmex/refs $:/tags/ViewTemplate&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521174932446&quot;,
-            &quot;created&quot;: &quot;20200126143031898&quot;,
-            &quot;caption&quot;: &quot;Simple links&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/.giffmex/ViewTemplate/refstranscludeclean&quot;: {
-            &quot;text&quot;: &quot;&lt;span class=\&quot;viewtemplatebigtext\&quot;&gt;\n\n&lt;$reveal type=\&quot;nomatch\&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=\&quot;hide\&quot; tag=\&quot;div\&quot; retain=\&quot;yes\&quot; animate=\&quot;yes\&quot;&gt;\n\n&lt;hr&gt;\n\n&lt;$list filter=\&quot;[!is[system]all[current]backlinks[]!tag[hide]!tag[outlines]sort[title]] -[is[current]]\&quot;&gt;&lt;$link&gt;&lt;$view field=\&quot;title\&quot;/&gt;&lt;/$link&gt;&lt;span class=\&quot;indent1\&quot;&gt;&lt;$link&gt;&lt;span class=\&quot;graybox\&quot;&gt;&lt;$transclude field=\&quot;text\&quot; mode=\&quot;block\&quot; /&gt;&lt;/span&gt;&lt;/$link&gt;&lt;/span&gt;&lt;/$list&gt;\n\n&lt;/$reveal&gt;\n\n&lt;/span&gt;&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/ViewTemplate/refstranscludeclean&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/blinks $:/giffmex/refs&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521151406793&quot;,
-            &quot;created&quot;: &quot;20200126142157739&quot;,
-            &quot;caption&quot;: &quot;Full text&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/.giffmex/ViewTemplate/refstranscludecollapse&quot;: {
-            &quot;text&quot;: &quot;&lt;span class=\&quot;viewtemplatebigtext\&quot;&gt;\n\n&lt;$reveal type=\&quot;nomatch\&quot; stateTitle=&lt;&lt;folded-state&gt;&gt; text=\&quot;hide\&quot; tag=\&quot;div\&quot; retain=\&quot;yes\&quot; animate=\&quot;yes\&quot;&gt;\n\n&lt;hr&gt;\n\n&lt;$list filter=\&quot;[!is[system]all[current]backlinks[]!tag[hide]!tag[outlines]sort[title]] -[is[current]]\&quot;&gt;&lt;$link&gt;&lt;$view field=\&quot;title\&quot;/&gt;&lt;/$link&gt;\n&lt;$reveal type=\&quot;nomatch\&quot; stateTitle=\&quot;$:/.giffmex/TiddlyBlinkFoldData\&quot; stateIndex=&lt;&lt;currentTiddler&gt;&gt; text=\&quot;show\&quot;&gt;\n&lt;$button class=&lt;&lt;tv-config-toolbar-class&gt;&gt; setTitle=\&quot;$:/.giffmex/TiddlyBlinkFoldData\&quot; setIndex=&lt;&lt;currentTiddler&gt;&gt; setTo=\&quot;show\&quot;&gt;{{$:/core/images/unfold-button}}&lt;/$button&gt;&lt;br/&gt;\n&lt;/$reveal&gt;\n&lt;$reveal type=\&quot;match\&quot; stateTitle=\&quot;$:/.giffmex/TiddlyBlinkFoldData\&quot; stateIndex=&lt;&lt;currentTiddler&gt;&gt; text=\&quot;show\&quot;&gt;\n&lt;$button class=&lt;&lt;tv-config-toolbar-class&gt;&gt; setTitle=\&quot;$:/.giffmex/TiddlyBlinkFoldData\&quot; setIndex=&lt;&lt;currentTiddler&gt;&gt; setTo=\&quot;hide\&quot;&gt;{{$:/core/images/fold-button}}&lt;/$button&gt;\n&lt;span class=\&quot;indent1\&quot;&gt;\n&lt;$link&gt;&lt;span class=\&quot;graybox\&quot;&gt;\n\n&lt;$transclude field=\&quot;text\&quot; mode=\&quot;block\&quot; /&gt;&lt;/span&gt;&lt;/$link&gt;&lt;/span&gt;\n&lt;/$reveal&gt;\n&lt;/$list&gt;\n\n&lt;/$reveal&gt;\n\n&lt;/span&gt;\n&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/ViewTemplate/refstranscludecollapse&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/blinks $:/giffmex/refs&quot;,
-            &quot;modified&quot;: &quot;20200521151416013&quot;,
-            &quot;created&quot;: &quot;20200126142157739&quot;,
-            &quot;caption&quot;: &quot;Full text under sliders&quot;
-        },
-        &quot;$:/.giffmex/ViewTemplate/title&quot;: {
-            &quot;text&quot;: &quot;\\define title-styles()\nfill:$(foregroundColor)$;\n\\end\n\\define config-title()\n$:/config/ViewToolbarButtons/Visibility/$(listItem)$\n\\end\n&lt;div class=\&quot;tc-tiddler-title\&quot;&gt;\n&lt;div class=\&quot;tc-titlebar\&quot;&gt;\n&lt;span class=\&quot;tc-tiddler-controls\&quot;&gt;\n&lt;$list filter=\&quot;[all[shadows+tiddlers]tag[$:/tags/ViewToolbar]!has[draft.of]]\&quot; variable=\&quot;listItem\&quot;&gt;&lt;$reveal type=\&quot;nomatch\&quot; state=&lt;&lt;config-title&gt;&gt; text=\&quot;hide\&quot;&gt;&lt;$set name=\&quot;tv-config-toolbar-class\&quot; filter=\&quot;[&lt;tv-config-toolbar-class&gt;] [&lt;listItem&gt;encodeuricomponent[]addprefix[tc-btn-]]\&quot;&gt;&lt;$transclude tiddler=&lt;&lt;listItem&gt;&gt;/&gt;&lt;/$set&gt;&lt;/$reveal&gt;&lt;/$list&gt;\n&lt;/span&gt;\n&lt;$set name=\&quot;tv-wikilinks\&quot; value={{$:/config/Tiddlers/TitleLinks}}&gt;\n&lt;$link&gt;\n&lt;$set name=\&quot;foregroundColor\&quot; value={{!!color}}&gt;\n&lt;span class=\&quot;tc-tiddler-title-icon\&quot; style=&lt;&lt;title-styles&gt;&gt;&gt;\n&lt;$transclude tiddler={{!!icon}}/&gt;\n&lt;/span&gt;\n&lt;/$set&gt;\n&lt;$list filter=\&quot;[all[current]removeprefix[$:/]]\&quot;&gt;\n&lt;h2 class=\&quot;tc-title\&quot; title={{$:/language/SystemTiddler/Tooltip}}&gt;\n&lt;span class=\&quot;tc-system-title-prefix\&quot;&gt;$:/&lt;/span&gt;&lt;$text text=&lt;&lt;currentTiddler&gt;&gt;/&gt;\n&lt;/h2&gt;\n&lt;/$list&gt;\n&lt;br&gt;&lt;$list filter=\&quot;[all[current]!prefix[$:/]]\&quot;&gt;\n&lt;h2 class=\&quot;tc-title\&quot;&gt;\n&lt;$view field=\&quot;title\&quot;/&gt;\n&lt;/h2&gt;\n&lt;/$list&gt;\n&lt;/$link&gt;\n&lt;/$set&gt;\n&lt;/div&gt;\n\n&lt;$reveal type=\&quot;nomatch\&quot; text=\&quot;\&quot; default=\&quot;\&quot; state=&lt;&lt;tiddlerInfoState&gt;&gt; class=\&quot;tc-tiddler-info tc-popup-handle\&quot; animate=\&quot;yes\&quot; retain=\&quot;yes\&quot;&gt;\n\n&lt;$list filter=\&quot;[all[shadows+tiddlers]tag[$:/tags/TiddlerInfoSegment]!has[draft.of]] [[$:/core/ui/TiddlerInfo]]\&quot; variable=\&quot;listItem\&quot;&gt;&lt;$transclude tiddler=&lt;&lt;listItem&gt;&gt; mode=\&quot;block\&quot;/&gt;&lt;/$list&gt;\n\n&lt;/$reveal&gt;\n&lt;/div&gt;&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/ViewTemplate/title&quot;,
-            &quot;tags&quot;: &quot;$:/tags/ViewTemplate $:/giffmex/stroll $:/giffmex/titleview&quot;,
-            &quot;modified&quot;: &quot;20200521151059626&quot;,
-            &quot;created&quot;: &quot;20200418121047715&quot;,
-            &quot;caption&quot;: &quot;Stroll default tiddler title position&quot;
-        },
-        &quot;$:/.giffmex/ViewToolbar/new-note-here&quot;: {
-            &quot;text&quot;: &quot;\\define button()\n&lt;$button  tooltip={{$:/language/Buttons/NewHere/Hint}}  class=&lt;&lt;tv-config-toolbar-class&gt;&gt; actions=&lt;&lt;actions&gt;&gt;&gt;\n{{$:/core/images/new-button}}\n&lt;/$button&gt;\n\\end\n\n\\define actions()\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot; title=&lt;&lt;journalTitle&gt;&gt; text=\&quot;\&quot;\&quot;[[$(tid)$]]\&quot;\&quot;\&quot;/&gt;\n\\end\n\n&lt;$wikify name=tid text=&lt;&lt;currentTiddler&gt;&gt;&gt;\n&lt;&lt;button&gt;&gt;\n&lt;/$wikify&gt;\n&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/ViewToolbar/new-note-here&quot;,
-            &quot;tags&quot;: &quot;$:/tags/ViewToolbar $:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145813770&quot;,
-            &quot;description&quot;: &quot;{{$:/language/Buttons/NewHere/Hint}}&quot;,
-            &quot;created&quot;: &quot;20200127162624895&quot;,
-            &quot;caption&quot;: &quot;{{$:/core/images/new-button}} {{$:/language/Buttons/NewHere/Caption}}&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/.giffmex/ViewToolbar/new-note-here-datetime&quot;: {
-            &quot;text&quot;: &quot;\\whitespace trim\n\n\\define journalButtonActions()\n&lt;$action-sendmessage $message=\&quot;tm-new-tiddler\&quot; title=&lt;&lt;now \&quot;\&quot;\&quot;$(journalTitleTemplate)$\&quot;\&quot;\&quot;&gt;&gt; text=\&quot;\&quot;\&quot;[[$(tid)$]]\&quot;\&quot;\&quot; /&gt;\n\\end\n\n\\define journalButtonTags()\n[[$(currentTiddlerTag)$]] $(journalTags)$\n\\end\n\n\\define journalButton()\n&lt;$button tooltip={{$:/language/Buttons/NewJournalHere/Hint}}\n   aria-label={{$:/language/Buttons/NewJournalHere/Caption}}\n   class=&lt;&lt;tv-config-toolbar-class&gt;&gt;\n   actions=&lt;&lt;journalButtonActions&gt;&gt;&gt;\n   &lt;$list filter=\&quot;[&lt;tv-config-toolbar-icons&gt;match[yes]]\&quot;&gt;\n      {{$:/core/images/new-journal-button}}\n   &lt;/$list&gt;\n   &lt;$list filter=\&quot;[&lt;tv-config-toolbar-text&gt;match[yes]]\&quot;&gt;\n      &lt;span class=\&quot;tc-btn-text\&quot;&gt;\n         &lt;$text text={{$:/language/Buttons/NewJournalHere/Caption}}/&gt;\n      &lt;/span&gt;\n   &lt;/$list&gt;\n&lt;/$button&gt;\n\\end\n\n&lt;$set name=\&quot;journalTitleTemplate\&quot; value={{$:/config/NewJournal/Title}}&gt;\n&lt;$set name=\&quot;tid\&quot; value=&lt;&lt;currentTiddler&gt;&gt;&gt;\n&lt;&lt;journalButton&gt;&gt;\n&lt;/$set&gt;\n&lt;/$set&gt;\n&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/.giffmex/ViewToolbar/new-note-here-datetime&quot;,
-            &quot;tags&quot;: &quot;$:/tags/ViewToolbar $:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145814420&quot;,
-            &quot;description&quot;: &quot;{{$:/language/Buttons/NewJournalHere/Hint}}&quot;,
-            &quot;created&quot;: &quot;20200127185823887&quot;,
-            &quot;caption&quot;: &quot;{{$:/core/images/new-journal-button}} {{$:/language/Buttons/NewJournalHere/Caption}}&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/config/PageControlButtons/Visibility/$:/_sq/Stories/Templates/StoryTogglePageControl&quot;: {
-            &quot;text&quot;: &quot;show&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/config/PageControlButtons/Visibility/$:/_sq/Stories/Templates/StoryTogglePageControl&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145816127&quot;,
-            &quot;created&quot;: &quot;20200416201744386&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/config/RelinkOnRename&quot;: {
-            &quot;text&quot;: &quot;yes&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/config/RelinkOnRename&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll $:/giffmex/blinks&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521150810088&quot;,
-            &quot;created&quot;: &quot;20200106214031452&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/viewtoolbar/viewrefs&quot;: {
-            &quot;text&quot;: &quot;reveal&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/viewtoolbar/viewrefs&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145816337&quot;,
-            &quot;created&quot;: &quot;20200416221420391&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/viewrefscheckboxes&quot;: {
-            &quot;text&quot;: &quot;hide&quot;,
-            &quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
-            &quot;title&quot;: &quot;$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/viewrefscheckboxes&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/stroll&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521145815043&quot;,
-            &quot;created&quot;: &quot;20200210145131741&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/plugins/danielo515/context/css&quot;: {
-            &quot;text&quot;: &quot;.matched {background-color:#ffc;}\n.tw-context {\n  border:0px solid #eee;background-color:#eee;\n  word-break: break-all; word-wrap: break-word;}&quot;,
-            &quot;type&quot;: &quot;text/css&quot;,
-            &quot;title&quot;: &quot;$:/plugins/danielo515/context/css&quot;,
-            &quot;tags&quot;: &quot;$:/tags/Stylesheet $:/giffmex/stroll $:/giffmex/blinks&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;modified&quot;: &quot;20200521150810414&quot;,
-            &quot;created&quot;: &quot;20200126141319129&quot;,
-            &quot;bag&quot;: &quot;default&quot;
-        },
-        &quot;$:/plugins/danielo515/ContextPlugin&quot;: {},
-        &quot;$:/plugins/flibbles/relink&quot;: {},
-        &quot;$:/plugins/snowgoon88/edit-comptext&quot;: {},
-        &quot;$:/plugins/sq/Stories&quot;: {},
-        &quot;$:/plugins/tiddlywiki/highlight&quot;: {},
-        &quot;$:/plugins/tobibeer/preview/defaults/delay&quot;: {
-            &quot;text&quot;: &quot;100&quot;,
-            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/defaults/delay&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/popups&quot;,
-            &quot;modified&quot;: &quot;20200527122505162&quot;,
-            &quot;created&quot;: &quot;20200510140249715&quot;
-        },
-        &quot;$:/plugins/tobibeer/appear&quot;: {
-            &quot;text&quot;: &quot;{\n    \&quot;tiddlers\&quot;: {\n        \&quot;$:/plugins/tobibeer/appear/widget.js\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/appear/widget.js\&quot;,\n            \&quot;text\&quot;: \&quot;/*\\\\\\r\\ntitle: $:/plugins/tobibeer/appear/widget.js\\r\\ntype: application/javascript\\r\\nmodule-type: widget\\r\\n\\r\\nUse the appear widget for popups, sliders, accordion menus\\r\\n\\r\\n@preserve\\r\\n\\\\*/\\n(function(){\\\&quot;use strict\\\&quot;;var t=require(\\\&quot;$:/core/modules/widgets/widget.js\\\&quot;).widget,e=function(t,e){this.initialise(t,e)},i={};e.prototype=new t;e.prototype.render=function(t,e){this.parentDomNode=t;this.nextSibling=e;this.computeAttributes();this.execute();var i,s,r,a,h,n,l=[];if(this.handle){this.getHandlerCache(this.handle,1);this.refreshHandler()}else{s={type:\\\&quot;button\\\&quot;};s.attributes=this.setAttributes(s,\\\&quot;button\\\&quot;);i=s.attributes[\\\&quot;class\\\&quot;].value.trim();s.attributes[\\\&quot;class\\\&quot;].value=i+\\\&quot; appear-show\\\&quot;+(this.handler?\\\&quot; tc-popup-absolute\\\&quot;:\\\&quot;\\\&quot;);s.children=this.wiki.parseText(\\\&quot;text/vnd.tiddlywiki\\\&quot;,this.show,{parseAsInline:true}).tree;h={type:\\\&quot;reveal\\\&quot;,children:this.parseTreeNode.children};h.attributes=this.setAttributes(h,\\\&quot;reveal\\\&quot;);h.isBlock=!(this.mode&amp;&amp;this.mode===\\\&quot;inline\\\&quot;);if(h.attributes.type&amp;&amp;h.attributes.type.value===\\\&quot;popup\\\&quot;){s.attributes.popup=h.attributes.state;l.push(s);if(!this.handler){l.push(h)}else{s.attributes.handler=this.handler}}else{h.attributes.type={type:\\\&quot;string\\\&quot;,value:\\\&quot;match\\\&quot;};h.attributes.text={type:\\\&quot;string\\\&quot;,value:this.currentTiddler};s.attributes.set=h.attributes.state;s.attributes.setTo={type:\\\&quot;string\\\&quot;,value:this.currentTiddler};a={type:\\\&quot;reveal\\\&quot;,isBlock:this.block,children:[s],attributes:{type:{type:\\\&quot;string\\\&quot;,value:\\\&quot;nomatch\\\&quot;},state:h.attributes.state,text:{type:\\\&quot;string\\\&quot;,value:this.currentTiddler}}};if(!this.once){r=$tw.utils.deepCopy(s);r.attributes[\\\&quot;class\\\&quot;].value=i+\\\&quot; appear-hide \\\&quot;+(this.attr.button.selectedClass?this.attr.button.selectedClass:\\\&quot;\\\&quot;);r.attributes.setTo={type:\\\&quot;string\\\&quot;,value:\\\&quot;\\\&quot;};r.children=this.wiki.parseText(\\\&quot;text/vnd.tiddlywiki\\\&quot;,this.hide,{parseAsInline:true}).tree}n=$tw.utils.deepCopy(a);n.children=[];if(!this.once){n.children.push(r)}if(!this.handler){n.children.push(h)}n.attributes.type.value=\\\&quot;match\\\&quot;;l.push(a,n)}this.makeChildWidgets(l);this.renderChildren(this.parentDomNode,e);if(this.handler){this.addToHandlerCache(h)}}};e.prototype.execute=function(){var t=this;this.attr={map:{reveal:{\\\&quot;class\\\&quot;:1,position:1,retain:1,state:1,style:1,tag:1,type:1},button:{\\\&quot;button-class\\\&quot;:1,\\\&quot;button-style\\\&quot;:1,\\\&quot;button-tag\\\&quot;:1,tooltip:1,selectedClass:1}},rename:{\\\&quot;button-class\\\&quot;:\\\&quot;class\\\&quot;,\\\&quot;button-style\\\&quot;:\\\&quot;style\\\&quot;,\\\&quot;button-tag\\\&quot;:\\\&quot;tag\\\&quot;},button:{},reveal:{}};$tw.utils.each(this.attributes,function(e,i){var s;$tw.utils.each(t.attr.map,function(r,a){$tw.utils.each(Object.keys(r),function(r){if(r==i){t.attr[a][i]=e;s=false;return false}});return s})});this.currentTiddler=this.getVariable(\\\&quot;currentTiddler\\\&quot;);this.show=this.getValue(this.attributes.show,\\\&quot;show\\\&quot;);this.hide=this.getValue(this.attributes.hide,\\\&quot;hide\\\&quot;);if(!this.hide){this.hide=this.show}this.once=this.attributes.once&amp;&amp;this.attributes.once!==\\\&quot;false\\\&quot;;this.$state=this.attributes.$state;this.mode=this.getValue(this.attributes.mode,\\\&quot;mode\\\&quot;);this.handle=this.attributes.handle;this.handler=this.attributes.handler;this.handlerVariables=(this.attributes.variables||\\\&quot;\\\&quot;)+\\\&quot; currentTiddler\\\&quot;;this.keep=[\\\&quot;yes\\\&quot;,\\\&quot;true\\\&quot;].indexOf((this.getValue(this.attributes.keep,\\\&quot;keep\\\&quot;)||\\\&quot;\\\&quot;).toLocaleLowerCase())&gt;-1;if(!this.attr.reveal.state){this.attr.reveal.state=this.getValue(undefined,\\\&quot;default-state\\\&quot;)+this.currentTiddler+this.getStateQualifier()+\\\&quot;/\\\&quot;+(this.attr.reveal.type?this.attr.reveal.type+\\\&quot;/\\\&quot;:\\\&quot;\\\&quot;)+(this.mode?this.mode+\\\&quot;/\\\&quot;:\\\&quot;\\\&quot;)+(this.once?\\\&quot;once/\\\&quot;:\\\&quot;\\\&quot;)+(this.$state?\\\&quot;/\\\&quot;+this.$state:\\\&quot;\\\&quot;)}};e.prototype.refresh=function(t){var e=this.computeAttributes();if(Object.keys(e).length){this.refreshSelf();return true}if(this.handle){this.refreshHandler()}return this.refreshChildren(t)};e.prototype.getValue=function(t,e){var i,s,r={show:\\\&quot;»\\\&quot;,\\\&quot;default-state\\\&quot;:\\\&quot;$:/temp/appear/\\\&quot;};if(t===undefined){i=this.wiki.getTiddler(\\\&quot;$:/plugins/tobibeer/appear/defaults/\\\&quot;+e);if(i){s=i.getFieldString(\\\&quot;undefined\\\&quot;);if(!s||s===\\\&quot;false\\\&quot;){t=i.getFieldString(\\\&quot;text\\\&quot;)}}}if(t===undefined){t=r[e]}return t};e.prototype.setAttributes=function(t,e){var i=this,s={};$tw.utils.each(Object.keys(this.attr.map[e]),function(r){var a,h=i.attr.rename[r];if(!h){h=r}a=i.getValue(i.attr[e][r],r);if(h===\\\&quot;class\\\&quot;){a=[\\\&quot;appear\\\&quot;,\\\&quot;appear-\\\&quot;+e,e===\\\&quot;reveal\\\&quot;&amp;&amp;i.keep?\\\&quot;tc-popup-keep\\\&quot;:\\\&quot;\\\&quot;,i.mode?\\\&quot;appear-\\\&quot;+i.mode:\\\&quot;\\\&quot;,i.once?\\\&quot;appear-once\\\&quot;:\\\&quot;\\\&quot;,a||\\\&quot;\\\&quot;].join(\\\&quot; \\\&quot;)}if(a!==undefined){if(h===\\\&quot;tag\\\&quot;){t.tag=a}else{s[h]={type:\\\&quot;string\\\&quot;,value:a}}}});return s};e.prototype.getHandlerCache=function(t,e){var s=i[t];if(!s||e){i[t]={handled:{},handle:{}};s=i[t]}return s};e.prototype.refreshHandler=function(){var t=this,e=this.getHandlerCache(this.handle),s=e.handle;if(Object.keys(s).length){$tw.utils.each(s,function(e,i){t.removeChildNode(i);t.children.push(t.makeChildWidget(e));t.children[t.children.length-1].render(t.parentDomNode,t.nextSibling)});i[this.handle].handle={}}};e.prototype.removeChildNode=function(t){var e=this;$tw.utils.each(this.children,function(i,s){if(i.children[0].state===t){i.removeChildDomNodes();e.children.splice(s);return false}})};e.prototype.addToHandlerCache=function(t){var e=this,i=t.attributes.state.value,s=this.getHandlerCache(this.handler),r=s.handled[i],a={type:\\\&quot;vars\\\&quot;,children:[t],attributes:{}};$tw.utils.each((this.handlerVariables||\\\&quot;\\\&quot;).split(\\\&quot; \\\&quot;),function(t){t=t.trim();if(t){a.attributes[t]={type:\\\&quot;string\\\&quot;,value:(e.getVariable(t)||\\\&quot;\\\&quot;).toString()}}});if(a!==r){s.handle[i]=a;this.wiki.setText(\\\&quot;$:/temp/appear-handler/\\\&quot;+this.handler,\\\&quot;text\\\&quot;,undefined,i)}};exports.appear=e})();\&quot;,\n            \&quot;type\&quot;: \&quot;application/javascript\&quot;,\n            \&quot;module-type\&quot;: \&quot;widget\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/appear/defaults/show\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/appear/defaults/show\&quot;,\n            \&quot;text\&quot;: \&quot;»\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/appear/defaults/mode\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/appear/defaults/mode\&quot;,\n            \&quot;text\&quot;: \&quot;block\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/appear/defaults/keep\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/appear/defaults/keep\&quot;,\n            \&quot;text\&quot;: \&quot;yes\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/appear/defaults/button-class\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/appear/defaults/button-class\&quot;,\n            \&quot;text\&quot;: \&quot;tc-btn-invisible tc-tiddlylink\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/appear/defaults/default-state\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/appear/defaults/default-state\&quot;,\n            \&quot;text\&quot;: \&quot;$:/temp/appear/\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/appear/popup.js\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/appear/popup.js\&quot;,\n            \&quot;text\&quot;: \&quot;/*\\\\\\r\\ntitle: $:/plugins/tobibeer/appear/popup.js\\r\\ntype: application/javascript\\r\\nmodule-type: utils\\r\\n\\r\\nAn enhanced version of the core Popup to support:\\r\\n* absolute popups\\r\\n* preview popups\\r\\n* popup z-index\\r\\n\\r\\n@preserve\\r\\n\\\\*/\\n(function(){\\\&quot;use strict\\\&quot;;var t=require(\\\&quot;$:/core/modules/utils/dom/popup.js\\\&quot;).Popup,e=require(\\\&quot;$:/core/modules/widgets/reveal.js\\\&quot;).reveal,s=e.prototype.refresh;t.prototype.show=function(t){var e,s=t.domNode,p=$tw.utils.hasClass(s,\\\&quot;tc-popup-absolute\\\&quot;),o=this.popupInfo(s),i=function(t){var e=t,s=0,p=0;do{s+=e.offsetLeft||0;p+=e.offsetTop||0;e=e.offsetParent}while(e);return{left:s,top:p}},l={left:s.offsetLeft,top:s.offsetTop};e=o.popupLevel;if(o.isHandle){e++}this.cancel(e);if(this.findPopup(t.title)===-1){this.popups.push({title:t.title,wiki:t.wiki,domNode:s})}l=p?i(s):l;t.wiki.setTextReference(t.title,\\\&quot;(\\\&quot;+l.left+\\\&quot;,\\\&quot;+l.top+\\\&quot;,\\\&quot;+s.offsetWidth+\\\&quot;,\\\&quot;+s.offsetHeight+\\\&quot;)\\\&quot;);if(this.popups.length&gt;0){this.rootElement.addEventListener(\\\&quot;click\\\&quot;,this,true)}};t.prototype.popupInfo=function(t){var e,s=false,p=t;while(p&amp;&amp;e===undefined){if($tw.utils.hasClass(p,\\\&quot;tc-popup-handle\\\&quot;)||$tw.utils.hasClass(p,\\\&quot;tc-popup-keep\\\&quot;)){s=true}if($tw.utils.hasClass(p,\\\&quot;tc-reveal\\\&quot;)&amp;&amp;($tw.utils.hasClass(p,\\\&quot;tc-popup\\\&quot;)||$tw.utils.hasClass(p,\\\&quot;tc-popup-handle\\\&quot;))){e=parseInt(p.style.zIndex)-1e3}p=p.parentNode}var o={popupLevel:e||0,isHandle:s};return o};t.prototype.handleEvent=function(t){if(t.type===\\\&quot;click\\\&quot;){var e=this.popupInfo(t.target),s=e.popupLevel-1;if(e.isHandle){if(s&lt;0){s=1}else{s++}}this.cancel(s)}};e.prototype.refresh=function(){var t,e,p=this.isOpen;e=s.apply(this,arguments);t=this.domNodes[0];if(this.isOpen&amp;&amp;(p!==this.isOpen||!t.style.zIndex)&amp;&amp;t&amp;&amp;(this.type===\\\&quot;popup\\\&quot;||$tw.utils.hasClass(t,\\\&quot;tc-block-dropdown\\\&quot;)&amp;&amp;$tw.utils.hasClass(t,\\\&quot;tc-reveal\\\&quot;))){t.style.zIndex=1e3+$tw.popup.popups.length}return e}})();\&quot;,\n            \&quot;type\&quot;: \&quot;application/javascript\&quot;,\n            \&quot;module-type\&quot;: \&quot;utils\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/appear/readme\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/appear/readme\&quot;,\n            \&quot;text\&quot;: \&quot;This plugin provides the ''$appear'' widget that can render popups and sliders (inline or block) as well as accordion menus.\\n\\n!! Attributes\\r\\n; type\\r\\n: set to `popup` to have the content appear as a popup\\r\\n; show\\r\\n: the button label\\r\\n; hide\\r\\n: the hide button label\\r\\n; mode\\r\\n: either `block` or `inline`, with respect to the inner content\\r\\n: any other mode is interpreted as block mode, without the default styles applying, e.g. drop-shadows\\r\\n; once\\r\\n: allows to click the button once, then hides it (unless the state is deleted)\\r\\n; $state\\r\\n: the widget calculates a state for you, use this to append a simple id\\r\\n; state\\r\\n: alternatively, specify a fully qualified state\\r\\n; keep\\r\\n: make popups sticky when `yes` or `true`\\r\\n; handle / handler / variables\\r\\n: allows to take the popup contents out of the flow and render them elsewhere on the page\\r\\n: required to properly create popups in table cells and other constained elements\\r\\n: specify variables to take along\\n\\n&lt;br&gt;\\n\\n; documentation / examples / demos...\\r\\n: http://tobibeer.github.io/tw5-plugins#appear\\r\\n\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/appear/styles\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/appear/styles\&quot;,\n            \&quot;tags\&quot;: \&quot;$:/tags/Stylesheet\&quot;,\n            \&quot;text\&quot;: \&quot;\\\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html\\n\\n&lt;pre&gt;.tc-reveal.appear-block,\\r\\n.tc-popup.appear {\\r\\n\\tborder-radius: 5px;\\r\\n\\tpadding: 1px 1em;\\r\\n\\t&lt;&lt;box-shadow \\\&quot;2px 2px 4px rgba(0,0,0,0.3)\\\&quot;&gt;&gt;;\\r\\n}\\r\\n.tc-popup.appear {\\r\\n\\tpadding: 0 1em;\\r\\n\\tbackground: &lt;&lt;colour background&gt;&gt;;\\r\\n}\\r\\n.appear-reveal.appear-inline{\\r\\nmargin-left:5px;\\r\\n}\\r\\n.appear-reveal.appear-inline.appear-once{\\r\\nmargin-left:0;\\r\\n}&lt;/pre&gt;\&quot;\n        }\n    }\n}&quot;,
-            &quot;version&quot;: &quot;0.6.2&quot;,
-            &quot;type&quot;: &quot;application/json&quot;,
-            &quot;title&quot;: &quot;$:/plugins/tobibeer/appear&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/popups&quot;,
-            &quot;source&quot;: &quot;https://github.com/tobibeer/tw5-appear&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;requires&quot;: &quot;&quot;,
-            &quot;plugin-type&quot;: &quot;plugin&quot;,
-            &quot;modified&quot;: &quot;20200527122450496&quot;,
-            &quot;list&quot;: &quot;readme&quot;,
-            &quot;documentation&quot;: &quot;https://tobibeer.github.io/tw5-appear&quot;,
-            &quot;description&quot;: &quot;Create popups, sliders or accordion menus with the appear widget.&quot;,
-            &quot;dependents&quot;: &quot;&quot;,
-            &quot;created&quot;: &quot;20200510135506740&quot;,
-            &quot;core-version&quot;: &quot;&gt;=5.1.9&quot;,
-            &quot;bag&quot;: &quot;default&quot;,
-            &quot;author&quot;: &quot;Tobias Beer&quot;
-        },
-        &quot;$:/plugins/tobibeer/preview&quot;: {
-            &quot;text&quot;: &quot;{\n    \&quot;tiddlers\&quot;: {\n        \&quot;$:/plugins/tobibeer/preview/config\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/config\&quot;,\n            \&quot;text\&quot;: \&quot;\\\\define default()\\r\\n&lt;dt&gt;$(defaults)$$(option)$&lt;/dt&gt;\\r\\n&lt;dd&gt;\\r\\n//{{$:/plugins/tobibeer/preview/lingo/$(option)$}}&lt;$list\\r\\nfilter=\\\&quot;[[$(option)$]prefix[template]]\\\&quot;&gt;\\r\\n{{$(defaults)$$(option)$}}&lt;/$list&gt;://&lt;br&gt;\\r\\n&lt;$edit-text tag=input tiddler=\\\&quot;$(defaults)$$(option)$\\\&quot;/&gt;\\r\\n&lt;/dd&gt;\\r\\n\\\\end\\n\\n&lt;dl class=\\\&quot;preview-defaults\\\&quot;&gt;\\r\\n&lt;$vars defaults=\\\&quot;$:/plugins/tobibeer/preview/defaults/\\\&quot;&gt;\\r\\n&lt;$list filter=\\\&quot;[all[tiddlers+shadows]removeprefix&lt;defaults&gt;sort[title]]\\\&quot; variable=\\\&quot;option\\\&quot;&gt;\\r\\n&lt;&lt;default&gt;&gt;\\r\\n&lt;/$list&gt;\\r\\n&lt;/$vars&gt;\\r\\n&lt;/dl&gt;\\r\\n&lt;style&gt;.preview-defaults input {width:90%;}&lt;/style&gt;\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/lingo/keys\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/lingo/keys\&quot;,\n            \&quot;text\&quot;: \&quot;modifier keys to trigger popup directly on-hover (ctrl, alt+shift, meta, etc...)\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/defaults/keys\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/defaults/keys\&quot;,\n            \&quot;text\&quot;: \&quot;CTRL\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/lingo/delay\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/lingo/delay\&quot;,\n            \&quot;text\&quot;: \&quot;delay popup for this many milliseconds\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/defaults/delay\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/defaults/delay\&quot;,\n            \&quot;text\&quot;: \&quot;1500\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/lingo/class\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/lingo/class\&quot;,\n            \&quot;text\&quot;: \&quot;css classes applied to the popup\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/defaults/class\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/defaults/class\&quot;,\n            \&quot;text\&quot;: \&quot;tc-popup-keep\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/lingo/not\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/lingo/not\&quot;,\n            \&quot;text\&quot;: \&quot;no preview for links inside elements with these classes\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/defaults/not\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/defaults/not\&quot;,\n            \&quot;text\&quot;: \&quot;tc-drop-down tc-sidebar-scrollable tc-topbar tc-tiddler-title\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/lingo/exclude\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/lingo/exclude\&quot;,\n            \&quot;text\&quot;: \&quot;no preview for links to tiddlers matching this filter\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/defaults/exclude\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/defaults/exclude\&quot;,\n            \&quot;text\&quot;: \&quot;[is[system]] [all[shadows]] [!has[text]]\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/lingo/template\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/lingo/template\&quot;,\n            \&quot;text\&quot;: \&quot;the preview template\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/defaults/template\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/defaults/template\&quot;,\n            \&quot;text\&quot;: \&quot;$:/plugins/tobibeer/preview/template\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/lingo/open\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/lingo/open\&quot;,\n            \&quot;text\&quot;: \&quot;view at ''&lt;&lt;WIKI&gt;&gt;''\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/keyboard.js\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/keyboard.js\&quot;,\n            \&quot;text\&quot;: \&quot;/*\\\\\\r\\ntitle: $:/plugins/tobibeer/preview/keyboard.js\\r\\ntype: application/javascript\\r\\nmodule-type: utils\\r\\n\\r\\nFixes $:/core/modules/utils/dom/keyboard.js by providing an alternative.\\r\\nDo not use as an API, let's fix the core.\\r\\n\\r\\n@preserve\\r\\n\\\\*/\\n(function(){\\\&quot;use strict\\\&quot;;var e={BACKSPACE:8,TAB:9,ENTER:13,ESCAPE:27,PAGEUP:33,PAGEDOWN:34,END:35,HOME:36,LEFT:37,UP:38,RIGHT:39,DOWN:40,INSERT:45,DELETE:46};exports.parseKeyDescriptorTB=function(t){var l,r,y,s=t.toUpperCase().split(\\\&quot;+\\\&quot;),K={keyCode:null,shiftKey:false,altKey:false,ctrlKey:false};for(y=0;y&lt;s.length;y++){l=false;r=s[y];if(r.substr(0,1)===\\\&quot;!\\\&quot;){l=true;r=r.substr(1)}if(r===\\\&quot;CTRL\\\&quot;){K.ctrlKey=l?null:true}else if(r===\\\&quot;SHIFT\\\&quot;){K.shiftKey=l?null:true}else if(r===\\\&quot;ALT\\\&quot;){K.altKey=l?null:true}else if(r===\\\&quot;META\\\&quot;){K.metaKey=l?null:true}else if(e[r]){K.keyCode=e[r]}else{K.keyCode=r.charCodeAt(0)}}return K};exports.checkKeyDescriptorTB=function(e,t){var l=!!t.metaKey;return(t.keyCode===null||e.keyCode===t.keyCode)&amp;&amp;(t.shiftKey===null?!e.shiftKey:e.shiftKey===t.shiftKey)&amp;&amp;(t.altKey===null?!e.altKey:e.altKey===t.altKey)&amp;&amp;(t.ctrlKey===null?!e.ctrlKey:e.ctrlKey===t.ctrlKey)&amp;&amp;(t.metaKey===null?!e.metaKey:e.metaKey===l)}})();\&quot;,\n            \&quot;type\&quot;: \&quot;application/javascript\&quot;,\n            \&quot;module-type\&quot;: \&quot;utils\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/link.js\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/link.js\&quot;,\n            \&quot;text\&quot;: \&quot;/*\\\\\\r\\ntitle: $:/plugins/tobibeer/preview/link.js\\r\\ntype: application/javascript\\r\\nmodule-type: startup\\r\\n\\r\\nEnhances the link widget for on-hover previews\\r\\n\\r\\n@preserve\\r\\n\\\\*/\\n(function(){var e,t=require(\\\&quot;$:/core/modules/widgets/link.js\\\&quot;).link,i=t.prototype.render,o=t.prototype.handleClickEvent;t.prototype.render=function(){i.apply(this,arguments);var t=this,o=this.wiki,p=this.domNodes[0],r=o.getTiddler(t.to),n=\\\&quot;$:/plugins/tobibeer/preview/defaults/\\\&quot;,u=\\\&quot;$:/temp/tobibeer/preview-\\\&quot;,l=$tw.utils.parseKeyDescriptorTB(o.getTextReference(n+\\\&quot;keys\\\&quot;,\\\&quot;\\\&quot;).toUpperCase()),s=o.getTextReference(n+\\\&quot;delay\\\&quot;).toUpperCase(),a=function(e){var i=$tw.popup.popupInfo(e),p=i.popupLevel;return o.getTextReference(u+p)&amp;&amp;o.getTextReference(u+p+\\\&quot;-tiddler\\\&quot;)===t.to?null:i},f=function(){var i,r=a(p);if(r){i=r.popupLevel;clearTimeout(t.previewTimeout);$tw.popup.cancel(i);i++;o.setText(u+i+\\\&quot;-tiddler\\\&quot;,\\\&quot;text\\\&quot;,null,t.to);if($tw.popup.findPopup(u+i)===-1){setTimeout(function(){$tw.popup.triggerPopup({domNode:p,title:u+i,wiki:o});e=0},50)}}},d=function(){var e,i,r=1,u=o.getTextReference(n+\\\&quot;not\\\&quot;,\\\&quot;\\\&quot;);if(u){$tw.utils.each(u.split(\\\&quot; \\\&quot;),function(e){var t=p;while(t&amp;&amp;r){if($tw.utils.hasClass(t,e)){r=0;return false}t=t.parentNode}})}if(r){i=o.getTextReference(n+\\\&quot;exclude\\\&quot;,\\\&quot;\\\&quot;);e=i?o.filterTiddlers(i):[];if(e.indexOf(t.to)&gt;=0){r=0}}return r};s=s!==undefined?parseInt(s):null;if(s!==null&amp;&amp;isNaN(s)){s=0}if(r){$tw.utils.addClass(p,\\\&quot;tc-popup-handle\\\&quot;);$tw.utils.addClass(p,\\\&quot;tc-popup-absolute\\\&quot;);[\\\&quot;mouseover\\\&quot;,\\\&quot;mouseout\\\&quot;].forEach(function(i){p.addEventListener(i,function(o){var p=o||window.event;if(i===\\\&quot;mouseover\\\&quot;){if(d()){if(!p.keyCode){p.keyCode=0}if($tw.utils.checkKeyDescriptorTB(p,l)){if(!e){e=1;f()}}else if(s!==null){e=0;t.previewTimeout=setTimeout(f,s)}}}else{e=0;clearTimeout(t.previewTimeout)}})})}};t.prototype.handleClickEvent=function(){o.apply(this,arguments);clearTimeout(this.previewTimeout);$tw.popup.cancel(Math.max(0,$tw.popup.popupInfo(this.domNodes[0]).popupLevel))}})();\&quot;,\n            \&quot;type\&quot;: \&quot;application/javascript\&quot;,\n            \&quot;module-type\&quot;: \&quot;startup\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/popups\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/popups\&quot;,\n            \&quot;tags\&quot;: \&quot;$:/tags/PageTemplate\&quot;,\n            \&quot;text\&quot;: \&quot;\\\\define state(num)\\n$:/temp/tobibeer/preview-$num$\\n\\\\end\\n\\n\\\\define classes(num)\\ntc-popup appear appear-block appear-reveal tc-preview-tiddler tc-preview-tiddler-$num$ $(default-classes)$\\n\\\\end\\n\\n\\\\define level(num)\\n&lt;$reveal tag=\\\&quot;div\\\&quot; type=\\\&quot;popup\\\&quot; state=&lt;&lt;state $num$&gt;&gt; class=&lt;&lt;classes $num$&gt;&gt;&gt;\\n&lt;$tiddler tiddler={{$:/temp/tobibeer/preview-$num$-tiddler}}&gt;\\n&lt;$transclude tiddler={{$:/plugins/tobibeer/preview/defaults/template}} mode=\\\&quot;block\\\&quot;/&gt;\\n&lt;/$tiddler&gt;\\n&lt;/$reveal&gt;\\n\\\\end\\n\\n&lt;$vars default-classes={{$:/plugins/tobibeer/preview/defaults/class}}&gt;\\n&lt;$list filter=\\\&quot;1 2 3 4 5 6 7 8 9\\\&quot;&gt;\\n&lt;$macrocall $name=\\\&quot;level\\\&quot; num={{!!title}}/&gt;\\n&lt;/$list&gt;\\n&lt;/$vars&gt;\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/readme\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/readme\&quot;,\n            \&quot;text\&quot;: \&quot;The plugin $:/plugins/tobibeer/preview enhances the core &lt;&lt;x LinkWidget&gt;&gt; to display a preview of tiddlers when hovering an internal link.\\n\\n&lt;br&gt;\\n\\n; documentation / examples / demos...\\r\\n: http://tobibeer.github.io/tw5-plugins#preview\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/styles\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/styles\&quot;,\n            \&quot;tags\&quot;: \&quot;$:/tags/Stylesheet\&quot;,\n            \&quot;text\&quot;: \&quot;.tc-popup.tc-preview-tiddler{\\r\\n\\tmax-width:600px;\\r\\n\\twidth:100%;\\r\\n\\tpadding:1em;\\r\\n}\&quot;\n        },\n        \&quot;$:/plugins/tobibeer/preview/template\&quot;: {\n            \&quot;title\&quot;: \&quot;$:/plugins/tobibeer/preview/template\&quot;,\n            \&quot;text\&quot;: \&quot;{{||$:/core/ui/ViewTemplate/tags}}\\n\\n&lt;$transclude mode=\\\&quot;block\\\&quot;/&gt;\&quot;\n        }\n    }\n}&quot;,
-            &quot;version&quot;: &quot;0.5.6&quot;,
-            &quot;type&quot;: &quot;application/json&quot;,
-            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview&quot;,
-            &quot;tags&quot;: &quot;$:/giffmex/popups&quot;,
-            &quot;source&quot;: &quot;https://github.com/tobibeer/tw5-preview&quot;,
-            &quot;revision&quot;: &quot;0&quot;,
-            &quot;requires&quot;: &quot;[[tobibeer/appear|http://tobibeer.github.io/tw5-plugins/#appear]]&quot;,
-            &quot;plugin-type&quot;: &quot;plugin&quot;,
-            &quot;modified&quot;: &quot;20200527122457519&quot;,
-            &quot;list&quot;: &quot;readme config&quot;,
-            &quot;documentation&quot;: &quot;https://tobibeer.github.io/tw5-preview&quot;,
-            &quot;description&quot;: &quot;Shows a tiddler preview when hovering internal links&quot;,
-            &quot;dependents&quot;: &quot;&quot;,
-            &quot;created&quot;: &quot;20200510135457255&quot;,
-            &quot;core-version&quot;: &quot;&gt;=5.1.9&quot;,
-            &quot;bag&quot;: &quot;default&quot;,
-            &quot;author&quot;: &quot;Tobias Beer&quot;
-        }
-    }
-}</pre>
+<div status="complete" title="$:/Import">
+<pre>The following tiddlers were imported:
+
+# [[$:/language/Buttons/NewHere/Hint]]
+# [[$:/language/Buttons/NewJournalHere/Hint]]
+# [[$:/config/NewJournal/Title]]
+# [[$:/core/ui/ControlPanel/StoryView]]
+# [[$:/core/ui/ViewTemplate/title]]
+# [[$:/core/ui/Buttons/fold]]
+# [[$:/config/EditorTypeMappings/text/vnd.tiddlywiki]]
+# [[$:/config/Navigation/openLinkFromInsideRiver]]
+# [[$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home]]
+# [[$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal]]
+# [[$:/config/Tiddlers/TitleLinks]]
+# [[$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold]]
+# [[$:/config/ui/EditTemplate]]
+# [[$:/palette]]
+# [[$:/tags/EditToolbar]]
+# [[$:/tags/PageControls]]
+# [[$:/tags/ViewTemplate]]
+# [[$:/tags/ViewToolbar]]
+# [[$:/view]]
+# [[$:/plugins/danielo515/ContextPlugin/widgets/context.js]]
+# [[$:/plugins/danielo515/ContextPlugin/Caption]]
+# [[$:/plugins/snowgoon88/edit-comptext/config]]
+# [[$:/_sq/Stories/config/sidebaroverlaybreakpoint]]
+# [[$:/_sq/Stories/config/Story2-storyview]]
+# [[$:/_sq/Stories/Story2StoryList]]
+# [[$:/.giffmex/.Stylesheet4Stroll]]
+# [[$:/.giffmex/actions/new-journal]]
+# [[$:/.giffmex/Buttons/more-tiddler-edit-actions]]
+# [[$:/.giffmex/EditTemplate/custom]]
+# [[$:/.giffmex/language/toolbar]]
+# [[$:/.giffmex/sidebar/advancedconfig]]
+# [[$:/.giffmex/sidebar/tabs/strollcontrols]]
+# [[$:/.giffmex/ui/EditTemplate]]
+# [[$:/.giffmex/ViewTemplate/refscontext]]
+# [[$:/.giffmex/ViewTemplate/refshidden]]
+# [[$:/.giffmex/ViewTemplate/refslinks]]
+# [[$:/.giffmex/ViewTemplate/refstranscludeclean]]
+# [[$:/.giffmex/ViewTemplate/refstranscludecollapse]]
+# [[$:/.giffmex/ViewTemplate/title]]
+# [[$:/.giffmex/ViewToolbar/new-note-here]]
+# [[$:/.giffmex/ViewToolbar/new-note-here-datetime]]
+# [[$:/config/PageControlButtons/Visibility/$:/_sq/Stories/Templates/StoryTogglePageControl]]
+# [[$:/config/RelinkOnRename]]
+# [[$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/viewtoolbar/viewrefs]]
+# [[$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/viewrefscheckboxes]]
+# [[$:/plugins/danielo515/context/css]]
+# [[$:/plugins/tobibeer/preview/defaults/delay]]
+# [[$:/plugins/tobibeer/appear]]
+# [[$:/plugins/tobibeer/preview]]</pre>
 </div>
 <div bag="default" revision="0" title="$:/isEncrypted">
 <pre>no</pre>
 </div>
-<div created="20200422192113402" modified="20200502181543363" tags="stroll" title="$:/language/Buttons/NewHere/Hint">
+<div created="20200422192113402" modified="20200521145818275" tags="$:/giffmex/stroll" title="$:/language/Buttons/NewHere/Hint">
 <pre>Create a new tiddler that links to this one</pre>
 </div>
-<div created="20200422191645603" modified="20200502181551177" tags="stroll" title="$:/language/Buttons/NewJournalHere/Hint">
+<div created="20200422191645603" modified="20200521145818053" tags="$:/giffmex/stroll" title="$:/language/Buttons/NewJournalHere/Hint">
 <pre>Create a new journal tiddler that links to this one</pre>
 </div>
 <div created="20170826081848529" creator="Mat von TWaddle" modified="20200423140021590" modifier="Mat von TWaddle" tags="batchmanipulator $:/tags/Stylesheet" title="$:/matvonTWaddle/batchmanipulator/Stylesheet" type="text/css">
@@ -11149,13 +10734,13 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 button.green-link {color:#00cc00;}
 </pre>
 </div>
-<div created="20200228210954683" modified="20200730220812755" tags="stroll" title="$:/palette">
+<div created="20200228210954683" modified="20200521145815264" tags="$:/giffmex/stroll" title="$:/palette">
 <pre>$:/palettes/Vanilla</pre>
 </div>
 <div bag="default" caption="Official Plugin Library by Tobias Beer" modified="20160120132137178" modifier="Tobias Beer" revision="0" tags="$:/tags/PluginLibrary" title="$:/pluginlibrary/tobibeer/official" url="http://tobibeer.github.io/tw5-plugins/library/index.html">
 <pre>The plugin library for the latest and greatest plugins from [ext[tobibeer/plugins|http://tobibeer.github.io/tw5-plugins]]; officially released versions of plugins by [ext[tobibeer|https://github.com/tobibeer]].</pre>
 </div>
-<div bag="default" created="20200126141319129" modified="20200502181612604" revision="0" tags="$:/tags/Stylesheet stroll" title="$:/plugins/danielo515/context/css" type="text/css">
+<div bag="default" created="20200126141319129" modified="20200521150810414" revision="0" tags="$:/tags/Stylesheet $:/giffmex/stroll $:/giffmex/blinks" title="$:/plugins/danielo515/context/css" type="text/css">
 <pre>.matched {background-color:#ffc;}
 .tw-context {
   border:0px solid #eee;background-color:#eee;
@@ -11209,10 +10794,10 @@ button.green-link {color:#00cc00;}
     }
 }</pre>
 </div>
-<div bag="default" created="20140530174219263" modified="20200502175030627" revision="0" tags="contextPlugin stroll" title="$:/plugins/danielo515/ContextPlugin/Caption" type="text/vnd.tiddlywiki">
+<div bag="default" created="20140530174219263" modified="20200521150938691" revision="0" tags="$:/giffmex/stroll $:/giffmex/blinks" title="$:/plugins/danielo515/ContextPlugin/Caption" type="text/vnd.tiddlywiki">
 <pre>Context search</pre>
 </div>
-<div bag="default" created="20140418153435777" creator="danielo" modified="20200502175030139" modifier="danielo" module-type="widget" revision="0" tags="stroll" title="$:/plugins/danielo515/ContextPlugin/widgets/context.js" type="application/javascript">
+<div bag="default" created="20140418153435777" creator="danielo" modified="20200521150809407" modifier="danielo" module-type="widget" revision="0" tags="$:/giffmex/stroll $:/giffmex/blinks" title="$:/plugins/danielo515/ContextPlugin/widgets/context.js" type="application/javascript">
 <pre>/*\\
 title: $:/core/modules/widgets/danielo/context-widget.js
 type: application/javascript
@@ -12131,7 +11716,7 @@ exports.context = contextWidget;
     }
 }</pre>
 </div>
-<div bag="default" created="20200111192930718" modified="20200502175035567" revision="0" tags="stroll" title="$:/plugins/snowgoon88/edit-comptext/config" type="application/json">
+<div bag="default" created="20200111192930718" modified="20200521150810244" revision="0" tags="$:/giffmex/stroll $:/giffmex/blinks" title="$:/plugins/snowgoon88/edit-comptext/config" type="application/json">
 <pre>{
   &quot;configuration&quot;: {
       &quot;caseSensitive&quot; : false,
@@ -12561,6 +12146,148 @@ exports.context = contextWidget;
     }
 }</pre>
 </div>
+<div author="Tobias Beer" bag="default" core-version="&gt;=5.1.9" created="20200510135506740" dependents="" description="Create popups, sliders or accordion menus with the appear widget." documentation="https://tobibeer.github.io/tw5-appear" list="readme" modified="20200527122450496" plugin-type="plugin" requires="" revision="0" source="https://github.com/tobibeer/tw5-appear" tags="$:/giffmex/popups" title="$:/plugins/tobibeer/appear" type="application/json" version="0.6.2">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/plugins/tobibeer/appear/widget.js&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/appear/widget.js&quot;,
+            &quot;text&quot;: &quot;/*\\\r\ntitle: $:/plugins/tobibeer/appear/widget.js\r\ntype: application/javascript\r\nmodule-type: widget\r\n\r\nUse the appear widget for popups, sliders, accordion menus\r\n\r\n@preserve\r\n\\*/\n(function(){\&quot;use strict\&quot;;var t=require(\&quot;$:/core/modules/widgets/widget.js\&quot;).widget,e=function(t,e){this.initialise(t,e)},i={};e.prototype=new t;e.prototype.render=function(t,e){this.parentDomNode=t;this.nextSibling=e;this.computeAttributes();this.execute();var i,s,r,a,h,n,l=[];if(this.handle){this.getHandlerCache(this.handle,1);this.refreshHandler()}else{s={type:\&quot;button\&quot;};s.attributes=this.setAttributes(s,\&quot;button\&quot;);i=s.attributes[\&quot;class\&quot;].value.trim();s.attributes[\&quot;class\&quot;].value=i+\&quot; appear-show\&quot;+(this.handler?\&quot; tc-popup-absolute\&quot;:\&quot;\&quot;);s.children=this.wiki.parseText(\&quot;text/vnd.tiddlywiki\&quot;,this.show,{parseAsInline:true}).tree;h={type:\&quot;reveal\&quot;,children:this.parseTreeNode.children};h.attributes=this.setAttributes(h,\&quot;reveal\&quot;);h.isBlock=!(this.mode&amp;&amp;this.mode===\&quot;inline\&quot;);if(h.attributes.type&amp;&amp;h.attributes.type.value===\&quot;popup\&quot;){s.attributes.popup=h.attributes.state;l.push(s);if(!this.handler){l.push(h)}else{s.attributes.handler=this.handler}}else{h.attributes.type={type:\&quot;string\&quot;,value:\&quot;match\&quot;};h.attributes.text={type:\&quot;string\&quot;,value:this.currentTiddler};s.attributes.set=h.attributes.state;s.attributes.setTo={type:\&quot;string\&quot;,value:this.currentTiddler};a={type:\&quot;reveal\&quot;,isBlock:this.block,children:[s],attributes:{type:{type:\&quot;string\&quot;,value:\&quot;nomatch\&quot;},state:h.attributes.state,text:{type:\&quot;string\&quot;,value:this.currentTiddler}}};if(!this.once){r=$tw.utils.deepCopy(s);r.attributes[\&quot;class\&quot;].value=i+\&quot; appear-hide \&quot;+(this.attr.button.selectedClass?this.attr.button.selectedClass:\&quot;\&quot;);r.attributes.setTo={type:\&quot;string\&quot;,value:\&quot;\&quot;};r.children=this.wiki.parseText(\&quot;text/vnd.tiddlywiki\&quot;,this.hide,{parseAsInline:true}).tree}n=$tw.utils.deepCopy(a);n.children=[];if(!this.once){n.children.push(r)}if(!this.handler){n.children.push(h)}n.attributes.type.value=\&quot;match\&quot;;l.push(a,n)}this.makeChildWidgets(l);this.renderChildren(this.parentDomNode,e);if(this.handler){this.addToHandlerCache(h)}}};e.prototype.execute=function(){var t=this;this.attr={map:{reveal:{\&quot;class\&quot;:1,position:1,retain:1,state:1,style:1,tag:1,type:1},button:{\&quot;button-class\&quot;:1,\&quot;button-style\&quot;:1,\&quot;button-tag\&quot;:1,tooltip:1,selectedClass:1}},rename:{\&quot;button-class\&quot;:\&quot;class\&quot;,\&quot;button-style\&quot;:\&quot;style\&quot;,\&quot;button-tag\&quot;:\&quot;tag\&quot;},button:{},reveal:{}};$tw.utils.each(this.attributes,function(e,i){var s;$tw.utils.each(t.attr.map,function(r,a){$tw.utils.each(Object.keys(r),function(r){if(r==i){t.attr[a][i]=e;s=false;return false}});return s})});this.currentTiddler=this.getVariable(\&quot;currentTiddler\&quot;);this.show=this.getValue(this.attributes.show,\&quot;show\&quot;);this.hide=this.getValue(this.attributes.hide,\&quot;hide\&quot;);if(!this.hide){this.hide=this.show}this.once=this.attributes.once&amp;&amp;this.attributes.once!==\&quot;false\&quot;;this.$state=this.attributes.$state;this.mode=this.getValue(this.attributes.mode,\&quot;mode\&quot;);this.handle=this.attributes.handle;this.handler=this.attributes.handler;this.handlerVariables=(this.attributes.variables||\&quot;\&quot;)+\&quot; currentTiddler\&quot;;this.keep=[\&quot;yes\&quot;,\&quot;true\&quot;].indexOf((this.getValue(this.attributes.keep,\&quot;keep\&quot;)||\&quot;\&quot;).toLocaleLowerCase())&gt;-1;if(!this.attr.reveal.state){this.attr.reveal.state=this.getValue(undefined,\&quot;default-state\&quot;)+this.currentTiddler+this.getStateQualifier()+\&quot;/\&quot;+(this.attr.reveal.type?this.attr.reveal.type+\&quot;/\&quot;:\&quot;\&quot;)+(this.mode?this.mode+\&quot;/\&quot;:\&quot;\&quot;)+(this.once?\&quot;once/\&quot;:\&quot;\&quot;)+(this.$state?\&quot;/\&quot;+this.$state:\&quot;\&quot;)}};e.prototype.refresh=function(t){var e=this.computeAttributes();if(Object.keys(e).length){this.refreshSelf();return true}if(this.handle){this.refreshHandler()}return this.refreshChildren(t)};e.prototype.getValue=function(t,e){var i,s,r={show:\&quot;»\&quot;,\&quot;default-state\&quot;:\&quot;$:/temp/appear/\&quot;};if(t===undefined){i=this.wiki.getTiddler(\&quot;$:/plugins/tobibeer/appear/defaults/\&quot;+e);if(i){s=i.getFieldString(\&quot;undefined\&quot;);if(!s||s===\&quot;false\&quot;){t=i.getFieldString(\&quot;text\&quot;)}}}if(t===undefined){t=r[e]}return t};e.prototype.setAttributes=function(t,e){var i=this,s={};$tw.utils.each(Object.keys(this.attr.map[e]),function(r){var a,h=i.attr.rename[r];if(!h){h=r}a=i.getValue(i.attr[e][r],r);if(h===\&quot;class\&quot;){a=[\&quot;appear\&quot;,\&quot;appear-\&quot;+e,e===\&quot;reveal\&quot;&amp;&amp;i.keep?\&quot;tc-popup-keep\&quot;:\&quot;\&quot;,i.mode?\&quot;appear-\&quot;+i.mode:\&quot;\&quot;,i.once?\&quot;appear-once\&quot;:\&quot;\&quot;,a||\&quot;\&quot;].join(\&quot; \&quot;)}if(a!==undefined){if(h===\&quot;tag\&quot;){t.tag=a}else{s[h]={type:\&quot;string\&quot;,value:a}}}});return s};e.prototype.getHandlerCache=function(t,e){var s=i[t];if(!s||e){i[t]={handled:{},handle:{}};s=i[t]}return s};e.prototype.refreshHandler=function(){var t=this,e=this.getHandlerCache(this.handle),s=e.handle;if(Object.keys(s).length){$tw.utils.each(s,function(e,i){t.removeChildNode(i);t.children.push(t.makeChildWidget(e));t.children[t.children.length-1].render(t.parentDomNode,t.nextSibling)});i[this.handle].handle={}}};e.prototype.removeChildNode=function(t){var e=this;$tw.utils.each(this.children,function(i,s){if(i.children[0].state===t){i.removeChildDomNodes();e.children.splice(s);return false}})};e.prototype.addToHandlerCache=function(t){var e=this,i=t.attributes.state.value,s=this.getHandlerCache(this.handler),r=s.handled[i],a={type:\&quot;vars\&quot;,children:[t],attributes:{}};$tw.utils.each((this.handlerVariables||\&quot;\&quot;).split(\&quot; \&quot;),function(t){t=t.trim();if(t){a.attributes[t]={type:\&quot;string\&quot;,value:(e.getVariable(t)||\&quot;\&quot;).toString()}}});if(a!==r){s.handle[i]=a;this.wiki.setText(\&quot;$:/temp/appear-handler/\&quot;+this.handler,\&quot;text\&quot;,undefined,i)}};exports.appear=e})();&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;widget&quot;
+        },
+        &quot;$:/plugins/tobibeer/appear/defaults/show&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/appear/defaults/show&quot;,
+            &quot;text&quot;: &quot;»&quot;
+        },
+        &quot;$:/plugins/tobibeer/appear/defaults/mode&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/appear/defaults/mode&quot;,
+            &quot;text&quot;: &quot;block&quot;
+        },
+        &quot;$:/plugins/tobibeer/appear/defaults/keep&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/appear/defaults/keep&quot;,
+            &quot;text&quot;: &quot;yes&quot;
+        },
+        &quot;$:/plugins/tobibeer/appear/defaults/button-class&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/appear/defaults/button-class&quot;,
+            &quot;text&quot;: &quot;tc-btn-invisible tc-tiddlylink&quot;
+        },
+        &quot;$:/plugins/tobibeer/appear/defaults/default-state&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/appear/defaults/default-state&quot;,
+            &quot;text&quot;: &quot;$:/temp/appear/&quot;
+        },
+        &quot;$:/plugins/tobibeer/appear/popup.js&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/appear/popup.js&quot;,
+            &quot;text&quot;: &quot;/*\\\r\ntitle: $:/plugins/tobibeer/appear/popup.js\r\ntype: application/javascript\r\nmodule-type: utils\r\n\r\nAn enhanced version of the core Popup to support:\r\n* absolute popups\r\n* preview popups\r\n* popup z-index\r\n\r\n@preserve\r\n\\*/\n(function(){\&quot;use strict\&quot;;var t=require(\&quot;$:/core/modules/utils/dom/popup.js\&quot;).Popup,e=require(\&quot;$:/core/modules/widgets/reveal.js\&quot;).reveal,s=e.prototype.refresh;t.prototype.show=function(t){var e,s=t.domNode,p=$tw.utils.hasClass(s,\&quot;tc-popup-absolute\&quot;),o=this.popupInfo(s),i=function(t){var e=t,s=0,p=0;do{s+=e.offsetLeft||0;p+=e.offsetTop||0;e=e.offsetParent}while(e);return{left:s,top:p}},l={left:s.offsetLeft,top:s.offsetTop};e=o.popupLevel;if(o.isHandle){e++}this.cancel(e);if(this.findPopup(t.title)===-1){this.popups.push({title:t.title,wiki:t.wiki,domNode:s})}l=p?i(s):l;t.wiki.setTextReference(t.title,\&quot;(\&quot;+l.left+\&quot;,\&quot;+l.top+\&quot;,\&quot;+s.offsetWidth+\&quot;,\&quot;+s.offsetHeight+\&quot;)\&quot;);if(this.popups.length&gt;0){this.rootElement.addEventListener(\&quot;click\&quot;,this,true)}};t.prototype.popupInfo=function(t){var e,s=false,p=t;while(p&amp;&amp;e===undefined){if($tw.utils.hasClass(p,\&quot;tc-popup-handle\&quot;)||$tw.utils.hasClass(p,\&quot;tc-popup-keep\&quot;)){s=true}if($tw.utils.hasClass(p,\&quot;tc-reveal\&quot;)&amp;&amp;($tw.utils.hasClass(p,\&quot;tc-popup\&quot;)||$tw.utils.hasClass(p,\&quot;tc-popup-handle\&quot;))){e=parseInt(p.style.zIndex)-1e3}p=p.parentNode}var o={popupLevel:e||0,isHandle:s};return o};t.prototype.handleEvent=function(t){if(t.type===\&quot;click\&quot;){var e=this.popupInfo(t.target),s=e.popupLevel-1;if(e.isHandle){if(s&lt;0){s=1}else{s++}}this.cancel(s)}};e.prototype.refresh=function(){var t,e,p=this.isOpen;e=s.apply(this,arguments);t=this.domNodes[0];if(this.isOpen&amp;&amp;(p!==this.isOpen||!t.style.zIndex)&amp;&amp;t&amp;&amp;(this.type===\&quot;popup\&quot;||$tw.utils.hasClass(t,\&quot;tc-block-dropdown\&quot;)&amp;&amp;$tw.utils.hasClass(t,\&quot;tc-reveal\&quot;))){t.style.zIndex=1e3+$tw.popup.popups.length}return e}})();&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;utils&quot;
+        },
+        &quot;$:/plugins/tobibeer/appear/readme&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/appear/readme&quot;,
+            &quot;text&quot;: &quot;This plugin provides the ''$appear'' widget that can render popups and sliders (inline or block) as well as accordion menus.\n\n!! Attributes\r\n; type\r\n: set to `popup` to have the content appear as a popup\r\n; show\r\n: the button label\r\n; hide\r\n: the hide button label\r\n; mode\r\n: either `block` or `inline`, with respect to the inner content\r\n: any other mode is interpreted as block mode, without the default styles applying, e.g. drop-shadows\r\n; once\r\n: allows to click the button once, then hides it (unless the state is deleted)\r\n; $state\r\n: the widget calculates a state for you, use this to append a simple id\r\n; state\r\n: alternatively, specify a fully qualified state\r\n; keep\r\n: make popups sticky when `yes` or `true`\r\n; handle / handler / variables\r\n: allows to take the popup contents out of the flow and render them elsewhere on the page\r\n: required to properly create popups in table cells and other constained elements\r\n: specify variables to take along\n\n&lt;br&gt;\n\n; documentation / examples / demos...\r\n: http://tobibeer.github.io/tw5-plugins#appear\r\n&quot;
+        },
+        &quot;$:/plugins/tobibeer/appear/styles&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/appear/styles&quot;,
+            &quot;tags&quot;: &quot;$:/tags/Stylesheet&quot;,
+            &quot;text&quot;: &quot;\\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline html\n\n&lt;pre&gt;.tc-reveal.appear-block,\r\n.tc-popup.appear {\r\n\tborder-radius: 5px;\r\n\tpadding: 1px 1em;\r\n\t&lt;&lt;box-shadow \&quot;2px 2px 4px rgba(0,0,0,0.3)\&quot;&gt;&gt;;\r\n}\r\n.tc-popup.appear {\r\n\tpadding: 0 1em;\r\n\tbackground: &lt;&lt;colour background&gt;&gt;;\r\n}\r\n.appear-reveal.appear-inline{\r\nmargin-left:5px;\r\n}\r\n.appear-reveal.appear-inline.appear-once{\r\nmargin-left:0;\r\n}&lt;/pre&gt;&quot;
+        }
+    }
+}</pre>
+</div>
+<div author="Tobias Beer" bag="default" core-version="&gt;=5.1.9" created="20200510135457255" dependents="" description="Shows a tiddler preview when hovering internal links" documentation="https://tobibeer.github.io/tw5-preview" list="readme config" modified="20200527122457519" plugin-type="plugin" requires="[[tobibeer/appear|http://tobibeer.github.io/tw5-plugins/#appear]]" revision="0" source="https://github.com/tobibeer/tw5-preview" tags="$:/giffmex/popups" title="$:/plugins/tobibeer/preview" type="application/json" version="0.5.6">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/plugins/tobibeer/preview/config&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/config&quot;,
+            &quot;text&quot;: &quot;\\define default()\r\n&lt;dt&gt;$(defaults)$$(option)$&lt;/dt&gt;\r\n&lt;dd&gt;\r\n//{{$:/plugins/tobibeer/preview/lingo/$(option)$}}&lt;$list\r\nfilter=\&quot;[[$(option)$]prefix[template]]\&quot;&gt;\r\n{{$(defaults)$$(option)$}}&lt;/$list&gt;://&lt;br&gt;\r\n&lt;$edit-text tag=input tiddler=\&quot;$(defaults)$$(option)$\&quot;/&gt;\r\n&lt;/dd&gt;\r\n\\end\n\n&lt;dl class=\&quot;preview-defaults\&quot;&gt;\r\n&lt;$vars defaults=\&quot;$:/plugins/tobibeer/preview/defaults/\&quot;&gt;\r\n&lt;$list filter=\&quot;[all[tiddlers+shadows]removeprefix&lt;defaults&gt;sort[title]]\&quot; variable=\&quot;option\&quot;&gt;\r\n&lt;&lt;default&gt;&gt;\r\n&lt;/$list&gt;\r\n&lt;/$vars&gt;\r\n&lt;/dl&gt;\r\n&lt;style&gt;.preview-defaults input {width:90%;}&lt;/style&gt;&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/lingo/keys&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/lingo/keys&quot;,
+            &quot;text&quot;: &quot;modifier keys to trigger popup directly on-hover (ctrl, alt+shift, meta, etc...)&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/defaults/keys&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/defaults/keys&quot;,
+            &quot;text&quot;: &quot;CTRL&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/lingo/delay&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/lingo/delay&quot;,
+            &quot;text&quot;: &quot;delay popup for this many milliseconds&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/defaults/delay&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/defaults/delay&quot;,
+            &quot;text&quot;: &quot;1500&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/lingo/class&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/lingo/class&quot;,
+            &quot;text&quot;: &quot;css classes applied to the popup&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/defaults/class&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/defaults/class&quot;,
+            &quot;text&quot;: &quot;tc-popup-keep&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/lingo/not&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/lingo/not&quot;,
+            &quot;text&quot;: &quot;no preview for links inside elements with these classes&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/defaults/not&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/defaults/not&quot;,
+            &quot;text&quot;: &quot;tc-drop-down tc-sidebar-scrollable tc-topbar tc-tiddler-title&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/lingo/exclude&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/lingo/exclude&quot;,
+            &quot;text&quot;: &quot;no preview for links to tiddlers matching this filter&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/defaults/exclude&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/defaults/exclude&quot;,
+            &quot;text&quot;: &quot;[is[system]] [all[shadows]] [!has[text]]&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/lingo/template&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/lingo/template&quot;,
+            &quot;text&quot;: &quot;the preview template&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/defaults/template&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/defaults/template&quot;,
+            &quot;text&quot;: &quot;$:/plugins/tobibeer/preview/template&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/lingo/open&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/lingo/open&quot;,
+            &quot;text&quot;: &quot;view at ''&lt;&lt;WIKI&gt;&gt;''&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/keyboard.js&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/keyboard.js&quot;,
+            &quot;text&quot;: &quot;/*\\\r\ntitle: $:/plugins/tobibeer/preview/keyboard.js\r\ntype: application/javascript\r\nmodule-type: utils\r\n\r\nFixes $:/core/modules/utils/dom/keyboard.js by providing an alternative.\r\nDo not use as an API, let's fix the core.\r\n\r\n@preserve\r\n\\*/\n(function(){\&quot;use strict\&quot;;var e={BACKSPACE:8,TAB:9,ENTER:13,ESCAPE:27,PAGEUP:33,PAGEDOWN:34,END:35,HOME:36,LEFT:37,UP:38,RIGHT:39,DOWN:40,INSERT:45,DELETE:46};exports.parseKeyDescriptorTB=function(t){var l,r,y,s=t.toUpperCase().split(\&quot;+\&quot;),K={keyCode:null,shiftKey:false,altKey:false,ctrlKey:false};for(y=0;y&lt;s.length;y++){l=false;r=s[y];if(r.substr(0,1)===\&quot;!\&quot;){l=true;r=r.substr(1)}if(r===\&quot;CTRL\&quot;){K.ctrlKey=l?null:true}else if(r===\&quot;SHIFT\&quot;){K.shiftKey=l?null:true}else if(r===\&quot;ALT\&quot;){K.altKey=l?null:true}else if(r===\&quot;META\&quot;){K.metaKey=l?null:true}else if(e[r]){K.keyCode=e[r]}else{K.keyCode=r.charCodeAt(0)}}return K};exports.checkKeyDescriptorTB=function(e,t){var l=!!t.metaKey;return(t.keyCode===null||e.keyCode===t.keyCode)&amp;&amp;(t.shiftKey===null?!e.shiftKey:e.shiftKey===t.shiftKey)&amp;&amp;(t.altKey===null?!e.altKey:e.altKey===t.altKey)&amp;&amp;(t.ctrlKey===null?!e.ctrlKey:e.ctrlKey===t.ctrlKey)&amp;&amp;(t.metaKey===null?!e.metaKey:e.metaKey===l)}})();&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;utils&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/link.js&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/link.js&quot;,
+            &quot;text&quot;: &quot;/*\\\r\ntitle: $:/plugins/tobibeer/preview/link.js\r\ntype: application/javascript\r\nmodule-type: startup\r\n\r\nEnhances the link widget for on-hover previews\r\n\r\n@preserve\r\n\\*/\n(function(){var e,t=require(\&quot;$:/core/modules/widgets/link.js\&quot;).link,i=t.prototype.render,o=t.prototype.handleClickEvent;t.prototype.render=function(){i.apply(this,arguments);var t=this,o=this.wiki,p=this.domNodes[0],r=o.getTiddler(t.to),n=\&quot;$:/plugins/tobibeer/preview/defaults/\&quot;,u=\&quot;$:/temp/tobibeer/preview-\&quot;,l=$tw.utils.parseKeyDescriptorTB(o.getTextReference(n+\&quot;keys\&quot;,\&quot;\&quot;).toUpperCase()),s=o.getTextReference(n+\&quot;delay\&quot;).toUpperCase(),a=function(e){var i=$tw.popup.popupInfo(e),p=i.popupLevel;return o.getTextReference(u+p)&amp;&amp;o.getTextReference(u+p+\&quot;-tiddler\&quot;)===t.to?null:i},f=function(){var i,r=a(p);if(r){i=r.popupLevel;clearTimeout(t.previewTimeout);$tw.popup.cancel(i);i++;o.setText(u+i+\&quot;-tiddler\&quot;,\&quot;text\&quot;,null,t.to);if($tw.popup.findPopup(u+i)===-1){setTimeout(function(){$tw.popup.triggerPopup({domNode:p,title:u+i,wiki:o});e=0},50)}}},d=function(){var e,i,r=1,u=o.getTextReference(n+\&quot;not\&quot;,\&quot;\&quot;);if(u){$tw.utils.each(u.split(\&quot; \&quot;),function(e){var t=p;while(t&amp;&amp;r){if($tw.utils.hasClass(t,e)){r=0;return false}t=t.parentNode}})}if(r){i=o.getTextReference(n+\&quot;exclude\&quot;,\&quot;\&quot;);e=i?o.filterTiddlers(i):[];if(e.indexOf(t.to)&gt;=0){r=0}}return r};s=s!==undefined?parseInt(s):null;if(s!==null&amp;&amp;isNaN(s)){s=0}if(r){$tw.utils.addClass(p,\&quot;tc-popup-handle\&quot;);$tw.utils.addClass(p,\&quot;tc-popup-absolute\&quot;);[\&quot;mouseover\&quot;,\&quot;mouseout\&quot;].forEach(function(i){p.addEventListener(i,function(o){var p=o||window.event;if(i===\&quot;mouseover\&quot;){if(d()){if(!p.keyCode){p.keyCode=0}if($tw.utils.checkKeyDescriptorTB(p,l)){if(!e){e=1;f()}}else if(s!==null){e=0;t.previewTimeout=setTimeout(f,s)}}}else{e=0;clearTimeout(t.previewTimeout)}})})}};t.prototype.handleClickEvent=function(){o.apply(this,arguments);clearTimeout(this.previewTimeout);$tw.popup.cancel(Math.max(0,$tw.popup.popupInfo(this.domNodes[0]).popupLevel))}})();&quot;,
+            &quot;type&quot;: &quot;application/javascript&quot;,
+            &quot;module-type&quot;: &quot;startup&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/popups&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/popups&quot;,
+            &quot;tags&quot;: &quot;$:/tags/PageTemplate&quot;,
+            &quot;text&quot;: &quot;\\define state(num)\n$:/temp/tobibeer/preview-$num$\n\\end\n\n\\define classes(num)\ntc-popup appear appear-block appear-reveal tc-preview-tiddler tc-preview-tiddler-$num$ $(default-classes)$\n\\end\n\n\\define level(num)\n&lt;$reveal tag=\&quot;div\&quot; type=\&quot;popup\&quot; state=&lt;&lt;state $num$&gt;&gt; class=&lt;&lt;classes $num$&gt;&gt;&gt;\n&lt;$tiddler tiddler={{$:/temp/tobibeer/preview-$num$-tiddler}}&gt;\n&lt;$transclude tiddler={{$:/plugins/tobibeer/preview/defaults/template}} mode=\&quot;block\&quot;/&gt;\n&lt;/$tiddler&gt;\n&lt;/$reveal&gt;\n\\end\n\n&lt;$vars default-classes={{$:/plugins/tobibeer/preview/defaults/class}}&gt;\n&lt;$list filter=\&quot;1 2 3 4 5 6 7 8 9\&quot;&gt;\n&lt;$macrocall $name=\&quot;level\&quot; num={{!!title}}/&gt;\n&lt;/$list&gt;\n&lt;/$vars&gt;&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/readme&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/readme&quot;,
+            &quot;text&quot;: &quot;The plugin $:/plugins/tobibeer/preview enhances the core &lt;&lt;x LinkWidget&gt;&gt; to display a preview of tiddlers when hovering an internal link.\n\n&lt;br&gt;\n\n; documentation / examples / demos...\r\n: http://tobibeer.github.io/tw5-plugins#preview&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/styles&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/styles&quot;,
+            &quot;tags&quot;: &quot;$:/tags/Stylesheet&quot;,
+            &quot;text&quot;: &quot;.tc-popup.tc-preview-tiddler{\r\n\tmax-width:600px;\r\n\twidth:100%;\r\n\tpadding:1em;\r\n}&quot;
+        },
+        &quot;$:/plugins/tobibeer/preview/template&quot;: {
+            &quot;title&quot;: &quot;$:/plugins/tobibeer/preview/template&quot;,
+            &quot;text&quot;: &quot;{{||$:/core/ui/ViewTemplate/tags}}\n\n&lt;$transclude mode=\&quot;block\&quot;/&gt;&quot;
+        }
+    }
+}</pre>
+</div>
+<div created="20200510140249715" modified="20200527122505162" tags="$:/giffmex/popups" title="$:/plugins/tobibeer/preview/defaults/delay">
+<pre>100</pre>
+</div>
 <div created="20200423122624925" modified="20200730200820990" title="$:/SiteSubtitle">
 <pre></pre>
 </div>
@@ -12600,8 +12327,8 @@ exports.context = contextWidget;
 <div created="20200503154024616" modified="20200503154205318" title="$:/state/folded/Welcome to Stroll">
 <pre>show</pre>
 </div>
-<div created="20200730224945271" modified="20200730224945271" title="$:/state/importpreviewtype">
-<pre>$:/core/ui/ImportPreviews/Diff</pre>
+<div created="20200730224945271" modified="20200730230957406" title="$:/state/importpreviewtype">
+<pre>$:/core/ui/ImportPreviews/Text</pre>
 </div>
 <div created="20200504201055477" modified="20200504201055477" title="$:/state/plugin-info--1660586530-$:/plugins/sq/Stories---1196877129">
 <pre>contents</pre>
@@ -12702,13 +12429,13 @@ exports.context = contextWidget;
 <div created="20200519141000553" list="$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200521145647980" tags="$:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/tags/EditToolbar">
 <pre></pre>
 </div>
-<div bag="default" created="20200127183739219" list="$:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/.giffmex/buttons/newnote-datetime $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions" modified="20200502175037744" revision="0" tags="stroll" title="$:/tags/PageControls" type="text/vnd.tiddlywiki">
+<div bag="default" created="20200127183739219" list="$:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/.giffmex/buttons/newnote-datetime $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions" modified="20200521145814198" revision="0" tags="$:/giffmex/stroll" title="$:/tags/PageControls" type="text/vnd.tiddlywiki">
 <pre></pre>
 </div>
-<div bag="default" created="20200128153730498" list="$:/.giffmex/ViewTemplate/title $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/unfold $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/body $:/.giffmex/ViewTemplate/viewfullnotes $:/.giffmex/ViewTemplate/refscontext $:/.giffmex/ViewTemplate/refslinks $:/.giffmex/ViewTemplate/refstranscludecollapse" modified="20200502175038389" revision="0" tags="stroll" title="$:/tags/ViewTemplate" type="text/vnd.tiddlywiki">
+<div bag="default" created="20200128153730498" list="$:/.giffmex/ViewTemplate/title $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/unfold $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/body $:/.giffmex/ViewTemplate/viewfullnotes $:/.giffmex/ViewTemplate/refscontext $:/.giffmex/ViewTemplate/refslinks $:/.giffmex/ViewTemplate/refstranscludecollapse" modified="20200521145814636" revision="0" tags="$:/giffmex/stroll" title="$:/tags/ViewTemplate" type="text/vnd.tiddlywiki">
 <pre></pre>
 </div>
-<div bag="default" created="20200127144249151" list="$:/core/ui/Buttons/close $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/edit $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/delete $:/_sq/Stories/divertTiddlerMacro $:/core/ui/Buttons/fold $:/.giffmex/ViewToolbar/new-note-here $:/.giffmex/ViewToolbar/new-note-here-datetime $:/core/ui/Buttons/info $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/core/ui/Buttons/fold-others $:/core/ui/Buttons/fold-bar" modified="20200730225345289" revision="0" tags="stroll" title="$:/tags/ViewToolbar" type="text/vnd.tiddlywiki">
+<div bag="default" created="20200127144249151" list="$:/core/ui/Buttons/fold $:/.giffmex/ViewToolbar/new-note-here $:/.giffmex/ViewToolbar/new-note-here-datetime $:/.giffmex/viewtemplate/viewrefs $:/jd/fullscreen-editor/EditButton $:/core/ui/Buttons/more-tiddler-actions $:/core/ui/Buttons/info $:/core/ui/Buttons/new-here $:/core/ui/Buttons/new-journal-here $:/core/ui/Buttons/clone $:/core/ui/Buttons/export-tiddler $:/core/ui/Buttons/edit $:/core/ui/Buttons/delete $:/core/ui/Buttons/permalink $:/core/ui/Buttons/permaview $:/core/ui/Buttons/open-window $:/core/ui/Buttons/close-others $:/core/ui/Buttons/close $:/core/ui/Buttons/fold-others" modified="20200521145813547" revision="0" tags="$:/giffmex/stroll" title="$:/tags/ViewToolbar" type="text/vnd.tiddlywiki">
 <pre></pre>
 </div>
 <div created="20200418122547595" modified="20200504205539791" title="$:/temp/advancedsearch">
@@ -12920,8 +12647,8 @@ exports.context = contextWidget;
 <div created="20200514035239004" modified="20200514035640992" tags="$:/tags/Image" title="$:/user/images/popup-link">
 <pre>&lt;svg width=&quot;22pt&quot; height=&quot;22pt&quot; class=&quot;tc-popup-link-button tc-image-button&quot; viewBox=&quot;0 0 400 400&quot;&gt;&lt;path d=&quot;M297.333 3.001c-16.479 3.33-16.404 3.27-65.879 52.589-49.98 49.821-50.491 50.422-54.893 64.439-2.298 7.317-2.297 23.961.002 31.281 2.392 7.617 7.985 18.023 9.687 18.023 2.092 0 30.417-29.658 30.417-31.849 0-4.403 2.097-6.716 43.765-48.273 45.73-45.607 43.561-43.766 49.466-41.98 4.693 1.419 42.824 40.475 43.256 44.305.646 5.728 1.632 4.593-42.027 48.342-42.956 43.045-43.406 43.455-47.599 43.455-2.424 0-3.235.698-17.867 15.357l-15.328 15.357 1.655 1.263c17.552 13.392 43.933 14.067 63.174 1.617 4.439-2.872 87.17-84.958 91.977-91.26 14.879-19.505 14.791-47.465-.211-67-3.958-5.154-43.913-44.686-47.812-47.305C327.468 3.535 310.998.24 297.333 3.001m-44 115.072c-5.551 2.142-130.874 127.201-134.196 133.913-8.924 18.035 9.248 36.995 28.53 29.764 5.211-1.954 130.679-127.304 133.862-133.736 8.831-17.844-9.393-37.196-28.196-29.941m-126.557 56.674c-8.587 1.428-17.698 5.458-24.776 10.96-5.33 4.142-87.421 86.711-89.941 90.464-13.452 20.035-12.774 46.341 1.68 65.162 3.958 5.154 43.913 44.686 47.811 47.305 19.686 13.227 46.316 12.268 65.117-2.345 5.206-4.046 87.397-86.673 89.817-90.293 12.656-18.933 12.798-43.988.357-62.788-.927-1.4-2.022-2.545-2.435-2.545-2.094 0-32.406 31.672-32.406 33.86 0 4.39-2.112 6.72-43.432 47.919-45.431 45.298-43.952 44.04-49.649 42.223-2.765-.882-40.666-37.748-42.634-41.469-1.222-2.312-1.22-6.76.003-9.066.525-.991 19.65-20.453 42.5-43.25 43.277-43.178 44.199-43.996 47.974-42.551.553.212 7.258-6.019 17.238-16.017l16.333-16.363-1.654-1.263c-10.995-8.39-27.578-12.324-41.903-9.943&quot; fill-rule=&quot;evenodd&quot;/&gt;&lt;/svg&gt;</pre>
 </div>
-<div bag="default" created="20200127165334843" modified="20200730225401879" revision="0" tags="stroll" title="$:/view" type="text/vnd.tiddlywiki">
-<pre>zoomin</pre>
+<div bag="default" created="20200127165334843" modified="20200521145813991" revision="0" tags="$:/giffmex/stroll" title="$:/view" type="text/vnd.tiddlywiki">
+<pre>classic</pre>
 </div>
 <div created="20200730220349972" modified="20200730230103664" tags="" title="Begin here" type="text/vnd.tiddlywiki">
 <pre>Hello! This is the root of my notes. This is the starting point for several trains of thought:
