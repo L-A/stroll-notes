@@ -209,6 +209,10 @@ Error message and password prompt
 
 <li>$:/config/EditToolbarButtons/Visibility/$:/_sq/Stories/divertTiddlerEditMacro</li>
 
+<li>$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/cancel</li>
+
+<li>$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/delete</li>
+
 <li>$:/config/Navigation/openLinkFromInsideRiver</li>
 
 <li>$:/config/NewJournal/Title</li>
@@ -216,6 +220,8 @@ Error message and password prompt
 <li>$:/config/PageControlButtons/Visibility/$:/_sq/Stories/Templates/StoryTogglePageControl</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal</li>
 
@@ -225,9 +231,19 @@ Error message and password prompt
 
 <li>$:/config/ui/EditTemplate</li>
 
+<li>$:/config/ViewToolbarButtons/Visibility/$:/_sq/Stories/divertTiddlerMacro</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/new-note-here</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/new-note-here-datetime</li>
+
 <li>$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/viewtoolbar/viewrefs</li>
 
 <li>$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/viewrefscheckboxes</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit</li>
 
 <li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold</li>
 
@@ -280,6 +296,8 @@ Error message and password prompt
 <li>$:/matvonTWaddle/batchmanipulator/Stylesheet</li>
 
 <li>$:/palette</li>
+
+<li>$:/pluginlibrary/tobibeer/official</li>
 
 <li>$:/plugins/danielo515/context/css</li>
 
@@ -349,6 +367,8 @@ Error message and password prompt
 
 <li>$:/state/tab--1963855381</li>
 
+<li>$:/state/tab--2112689675</li>
+
 <li>$:/state/tab--219645345</li>
 
 <li>$:/state/tab--509593366</li>
@@ -404,8 +424,6 @@ Error message and password prompt
 <li>$:/temp/RenameTags/search</li>
 
 <li>$:/temp/search</li>
-
-<li>$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.22/index.html</li>
 
 <li>$:/theme</li>
 
@@ -1156,7 +1174,7 @@ Right column: &lt;&lt;switchStoryView $:/_sq/Stories/config/Story2-storyview cla
 &lt;/span&gt;
 </pre>
 </div>
-<div caption="Stroll default tiddler title position" created="20200418121047715" dummy="yes" modified="20200730220336184" tags="stroll titleview $:/tags/ViewTemplate" title="$:/.giffmex/ViewTemplate/title">
+<div caption="Stroll default tiddler title position" created="20200418121047715" modified="20200730222726537" tags="stroll titleview" title="$:/.giffmex/ViewTemplate/title">
 <pre>\define title-styles()
 fill:$(foregroundColor)$;
 \end
@@ -1283,17 +1301,26 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20200730220843608" modified="20200730220843608" title="$:/config/EditToolbarButtons/Visibility/$:/_sq/Stories/divertTiddlerEditMacro">
 <pre>hide</pre>
 </div>
+<div created="20200730222805955" modified="20200730222807671" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/cancel">
+<pre>show</pre>
+</div>
+<div created="20200730222805540" modified="20200730222808109" title="$:/config/EditToolbarButtons/Visibility/$:/core/ui/Buttons/delete">
+<pre>show</pre>
+</div>
 <div created="20200418141615149" modified="20200502181307400" tags="stroll" title="$:/config/Navigation/openLinkFromInsideRiver">
 <pre>top</pre>
 </div>
 <div bag="default" created="20191225174624729" modified="20200502181315985" revision="0" tags="stroll" title="$:/config/NewJournal/Title" type="text/vnd.tiddlywiki">
 <pre>YYYY / 0MM / 0DD / 0hh:0mm:0ss /</pre>
 </div>
-<div bag="default" created="20200416201744386" modified="20200502181324302" revision="0" tags="stroll" title="$:/config/PageControlButtons/Visibility/$:/_sq/Stories/Templates/StoryTogglePageControl" type="text/vnd.tiddlywiki">
-<pre>show</pre>
+<div bag="default" created="20200416201744386" modified="20200730222822283" revision="0" tags="stroll" title="$:/config/PageControlButtons/Visibility/$:/_sq/Stories/Templates/StoryTogglePageControl" type="text/vnd.tiddlywiki">
+<pre>hide</pre>
 </div>
 <div created="20200502172232641" modified="20200502181339801" tags="stroll" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>reveal</pre>
+</div>
+<div created="20200730222820222" modified="20200730222820222" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
+<pre>show</pre>
 </div>
 <div created="20200504150621926" modified="20200504150836176" tags="stroll" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
 <pre>show</pre>
@@ -1307,14 +1334,29 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div created="20200418200430409" modified="20200502181449794" tags="stroll" title="$:/config/ui/EditTemplate">
 <pre>$:/.giffmex/ui/EditTemplate</pre>
 </div>
+<div created="20200730222834471" modified="20200730222905595" title="$:/config/ViewToolbarButtons/Visibility/$:/_sq/Stories/divertTiddlerMacro">
+<pre>hide</pre>
+</div>
+<div created="20200730222942279" modified="20200730222942279" title="$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/new-note-here">
+<pre>hide</pre>
+</div>
+<div created="20200730222857509" modified="20200730222857509" title="$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/new-note-here-datetime">
+<pre>hide</pre>
+</div>
 <div bag="default" created="20200416221420391" modified="20200502175040929" revision="0" tags="stroll" title="$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/viewtoolbar/viewrefs" type="text/vnd.tiddlywiki">
 <pre>reveal</pre>
 </div>
 <div bag="default" created="20200210145131741" modified="20200502175039085" revision="0" tags="stroll" title="$:/config/ViewToolbarButtons/Visibility/$:/.giffmex/ViewToolbar/viewrefscheckboxes" type="text/vnd.tiddlywiki">
 <pre>hide</pre>
 </div>
-<div created="20200418123214612" modified="20200502181501430" tags="stroll" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold">
-<pre>reveal</pre>
+<div created="20200730222916131" modified="20200730222921811" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close">
+<pre>show</pre>
+</div>
+<div created="20200730222839331" modified="20200730222944576" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
+<pre>hide</pre>
+</div>
+<div created="20200418123214612" modified="20200730222844678" tags="stroll" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/fold">
+<pre>hide</pre>
 </div>
 <div created="20200504150240334" modified="20200504150259224" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-journal-here">
 <pre>hide</pre>
@@ -10809,7 +10851,7 @@ exports.has = function(source,operator,options) {
 <div created="20200502183202293" modified="20200502183202293" title="$:/core/ui/ControlPanel/StoryView 2">
 <pre></pre>
 </div>
-<div caption="TiddlyWiki default tiddler title position" created="20200418121129515" modified="20200503153640053" tags="stroll titleview" title="$:/core/ui/ViewTemplate/title">
+<div caption="TiddlyWiki default tiddler title position" created="20200418121129515" modified="20200730222726539" tags="stroll titleview $:/tags/ViewTemplate" title="$:/core/ui/ViewTemplate/title">
 <pre>\define title-styles()
 fill:$(foregroundColor)$;
 \end
@@ -10867,10 +10909,7 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
-# [[$:/tags/EditToolbar]]
-# [[$:/.giffmex/Buttons/more-tiddler-edit-actions]]
-# [[$:/.giffmex/EditTemplate/custom]]
-# [[$:/.giffmex/language/toolbar]]</pre>
+# [[$:/pluginlibrary/tobibeer/official]]</pre>
 </div>
 <div bag="default" revision="0" title="$:/isEncrypted">
 <pre>no</pre>
@@ -10934,6 +10973,9 @@ button.green-link {color:#00cc00;}
 </div>
 <div created="20200228210954683" modified="20200730220812755" tags="stroll" title="$:/palette">
 <pre>$:/palettes/Vanilla</pre>
+</div>
+<div bag="default" caption="Official Plugin Library by Tobias Beer" modified="20160120132137178" modifier="Tobias Beer" revision="0" tags="$:/tags/PluginLibrary" title="$:/pluginlibrary/tobibeer/official" url="http://tobibeer.github.io/tw5-plugins/library/index.html">
+<pre>The plugin library for the latest and greatest plugins from [ext[tobibeer/plugins|http://tobibeer.github.io/tw5-plugins]]; officially released versions of plugins by [ext[tobibeer|https://github.com/tobibeer]].</pre>
 </div>
 <div bag="default" created="20200126141319129" modified="20200502181612604" revision="0" tags="$:/tags/Stylesheet stroll" title="$:/plugins/danielo515/context/css" type="text/css">
 <pre>.matched {background-color:#ffc;}
@@ -12413,11 +12455,14 @@ exports.context = contextWidget;
 <div created="20200418122550429" modified="20200504205519536" title="$:/state/tab--1498284803">
 <pre>$:/core/ui/AdvancedSearch/Filter</pre>
 </div>
-<div created="20200418132348763" modified="20200730222331490" title="$:/state/tab--1963855381">
-<pre>$:/core/ui/ControlPanel/StoryView</pre>
+<div created="20200418132348763" modified="20200730222759042" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Toolbars</pre>
 </div>
-<div created="20200429214724797" modified="20200429214724797" title="$:/state/tab--219645345">
-<pre>$:/core/ui/ControlPanel/Plugins/Add/Themes</pre>
+<div created="20200730222745673" modified="20200730222749832" title="$:/state/tab--2112689675">
+<pre>$:/core/ui/ControlPanel/Basics</pre>
+</div>
+<div created="20200429214724797" modified="20200730223325565" title="$:/state/tab--219645345">
+<pre>$:/core/ui/ControlPanel/Plugins/Add/Plugins</pre>
 </div>
 <div created="20200423200357785" modified="20200423200357785" title="$:/state/tab--509593366">
 <pre>$:/core/ui/ControlPanel/Palette</pre>
@@ -12434,11 +12479,11 @@ exports.context = contextWidget;
 <div created="20200730221102054" modified="20200730221122592" title="$:/state/tab-1163638994">
 <pre>$:/core/ui/MoreSideBar/Plugins/Plugins</pre>
 </div>
-<div created="20200418121928767" modified="20200730221206658" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Appearance</pre>
+<div created="20200418121928767" modified="20200730223255463" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Plugins</pre>
 </div>
-<div created="20200730200836131" modified="20200730200836649" title="$:/state/tab-2065006209">
-<pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
+<div created="20200730200836131" modified="20200730223220598" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/TiddlySpot</pre>
 </div>
 <div created="20200418122101344" modified="20200730221140903" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/All</pre>
@@ -12446,8 +12491,8 @@ exports.context = contextWidget;
 <div created="20200418121835270" modified="20200730222318981" title="$:/state/tab/sidebar--595412856">
 <pre>$:/.giffmex/sidebar/advancedconfig</pre>
 </div>
-<div created="20200504200956301" modified="20200730220853026" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/core/ui/ControlPanel/Toolbars/EditorToolbar</pre>
+<div created="20200504200956301" modified="20200730222833001" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
 </div>
 <div created="20200504154623789" modified="20200504154625935" title="$:/state/tree/$:/.giffmex/">
 <pre>hide</pre>
@@ -12467,7 +12512,7 @@ exports.context = contextWidget;
 <div bag="default" revision="1" title="$:/status/UserName">
 <pre></pre>
 </div>
-<div list="[[Begin here]]" title="$:/StoryList">
+<div list="$:/Import [[Begin here]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200519141000553" list="$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200521145647980" tags="$:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/tags/EditToolbar">
@@ -12554,9 +12599,6 @@ exports.context = contextWidget;
 </div>
 <div created="20200418122544376" modified="20200504214729512" title="$:/temp/search">
 <pre></pre>
-</div>
-<div created="20200429214841632" modified="20200429214841632" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.22/index.html" url="https://tiddlywiki.com/library/v5.1.22/index.html">
-<pre>loaded</pre>
 </div>
 <div bag="default" created="20200414145220556" modified="20200730220825940" revision="0" title="$:/theme" type="text/vnd.tiddlywiki">
 <pre>$:/themes/tiddlywiki/vanilla</pre>
