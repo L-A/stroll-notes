@@ -191,6 +191,8 @@ Error message and password prompt
 
 <li>$:/build</li>
 
+<li>$:/Cleanup for public view</li>
+
 <li>$:/config/_sq/Stories/story2</li>
 
 <li>$:/config/AnimationDuration</li>
@@ -492,8 +494,6 @@ Error message and password prompt
 <li>Begin here</li>
 
 <li>Bottomless lists create more anxiety than organization</li>
-
-<li>Cleanup for public view</li>
 
 <li>GettingStarted</li>
 
@@ -1010,6 +1010,13 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div commit="1a6be5ae09de1289727e9a981560d295cf8f361a" title="$:/build">
 <pre>Built from branch 'tiddlywiki-com' at commit 1a6be5ae09de1289727e9a981560d295cf8f361a of https://github.com/Jermolene/TiddlyWiki5.git at 2020-04-15 15:19:44 UTC
 </pre>
+</div>
+<div created="20200731154006770" modified="20200731171404334" module-type="startup" tags="" title="$:/Cleanup for public view" type="application/javascript">
+<pre>function test() {
+console.log(&quot;Hi this is executed&quot;);
+}
+
+test()</pre>
 </div>
 <div bag="default" created="20170615081040584" modified="20200504143613685" revision="0" title="$:/config/_sq/Stories/story2" type="text/vnd.tiddlywiki">
 <pre>yes</pre>
@@ -12472,7 +12479,7 @@ exports.context = contextWidget;
 <div bag="default" revision="1" title="$:/status/UserName">
 <pre></pre>
 </div>
-<div list="[[Begin here]] [[Cleanup for public view]] $:/ControlPanel" title="$:/StoryList">
+<div list="[[Begin here]] [[$:/Cleanup for public view]] [[Inboxes only work if you trust how they are drained]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200519141000553" list="$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200521145647980" tags="$:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/tags/EditToolbar">
@@ -12724,13 +12731,6 @@ exports.context = contextWidget;
 </div>
 <div created="20200730221057366" modified="20200730221057366" title="Bottomless lists create more anxiety than organization">
 <pre></pre>
-</div>
-<div created="20200731154006770" modified="20200731155357861" module-type="startup" tags="" title="Cleanup for public view" type="application/javascript">
-<pre>function test() {
-console.log(&quot;Hi this is executed&quot;);
-}
-
-test()</pre>
 </div>
 <div created="20200507132053126" modified="20200521175658414" title="GettingStarted">
 <pre>\define lingo-base() $:/language/ControlPanel/Basics/
