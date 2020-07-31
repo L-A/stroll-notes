@@ -1017,7 +1017,7 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 &lt;/$set&gt;
 </pre>
 </div>
-<div created="20200731154006770" modified="20200731180948893" module-type="startup" tags="" title="$:/boot/bootPresentation.js" type="application/javascript">
+<div created="20200731154006770" modified="20200731181642510" module-type="startup" tags="" title="$:/boot/bootPresentation.js" type="application/javascript">
 <pre>function lalPublicSetup() {
   var styles = `
 	.public .tc-sidebar-scrollable {
@@ -1040,6 +1040,12 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 	.public .tc-tiddler-controls span:last-child {
 		display: inline-block;
 	}
+
+	.public .tc-story-river div.tc-tiddler-frame:first-of-type .tc-tiddler-controls span:last-child {
+		display: none;
+	}
+
+
 `;
 
   var styleNode = document.createElement(&quot;style&quot;);
