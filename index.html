@@ -1017,7 +1017,7 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 &lt;/$set&gt;
 </pre>
 </div>
-<div created="20200731154006770" modified="20200731173056183" module-type="startup" tags="" title="$:/boot/bootPresentation.js" type="application/javascript">
+<div created="20200731154006770" modified="20200731180948893" module-type="startup" tags="" title="$:/boot/bootPresentation.js" type="application/javascript">
 <pre>function lalPublicSetup() {
   var styles = `
 	.public .tc-sidebar-scrollable {
@@ -1029,9 +1029,16 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 		margin-right: auto;
 	}
 
-	.public .tc-tiddler-controls,
 	.public .tc-topbar-right {
 		display: none;
+	}
+
+	.public .tc-tiddler-controls span {
+		display: none;
+	}
+
+	.public .tc-tiddler-controls span:last-child {
+		display: inline-block;
 	}
 `;
 
@@ -1049,6 +1056,8 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
     } else {
       position = 0;
     }
+
+    console.log(position);
 
     if (position == chain.length) {
       document.body.classList.remove(&quot;public&quot;);
@@ -12515,8 +12524,8 @@ exports.context = contextWidget;
 <div created="20200418122101344" modified="20200731172658098" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/System</pre>
 </div>
-<div created="20200418121835270" modified="20200731174617335" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Tools</pre>
+<div created="20200418121835270" modified="20200731180934001" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/More</pre>
 </div>
 <div created="20200504200956301" modified="20200731180350037" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
@@ -12539,7 +12548,7 @@ exports.context = contextWidget;
 <div bag="default" revision="1" title="$:/status/UserName">
 <pre></pre>
 </div>
-<div created="20200731174620337" list="[[Begin here]] $:/ControlPanel" modified="20200731180340437" title="$:/StoryList">
+<div created="20200731180937992" list="[[Begin here]] $:/boot/bootPresentation.js" modified="20200731180937992" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200519141000553" list="$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200521145647980" tags="$:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/tags/EditToolbar">
@@ -12630,7 +12639,7 @@ exports.context = contextWidget;
 <div created="20200730223758435" modified="20200730223758435" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/http://tobibeer.github.io/tw5-plugins/library/index.html" url="http://tobibeer.github.io/tw5-plugins/library/index.html">
 <pre>loading</pre>
 </div>
-<div created="20200731012038237" modified="20200731173406198" title="$:/temp/tobibeer/preview-1-tiddler">
+<div created="20200731012038237" modified="20200731180920609" title="$:/temp/tobibeer/preview-1-tiddler">
 <pre>Inboxes only work if you trust how they are drained</pre>
 </div>
 <div bag="default" created="20200414145220556" modified="20200731173821999" revision="0" title="$:/theme" type="text/vnd.tiddlywiki">
