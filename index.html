@@ -1017,7 +1017,7 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 &lt;/$set&gt;
 </pre>
 </div>
-<div created="20200731154006770" modified="20200731181642510" module-type="startup" tags="" title="$:/boot/bootPresentation.js" type="application/javascript">
+<div created="20200731154006770" modified="20200731181859616" module-type="startup" tags="" title="$:/boot/bootPresentation.js" type="application/javascript">
 <pre>function lalPublicSetup() {
   var styles = `
 	.public .tc-sidebar-scrollable {
@@ -1050,22 +1050,20 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 
   var styleNode = document.createElement(&quot;style&quot;);
   var chain = &quot;allo&quot;.split(&quot;&quot;);
-  var position = 0;
+  var eventP = 0;
   styleNode.type = &quot;text/css&quot;;
   styleNode.appendChild(document.createTextNode(styles));
   document.head.appendChild(styleNode);
   document.body.classList.add(&quot;public&quot;);
 
   document.addEventListener(&quot;keyup&quot;, function (event) {
-    if (event.key == chain[position]) {
-      position += 1;
+    if (event.key == chain[eventP]) {
+      eventP += 1;
     } else {
-      position = 0;
+      eventP = 0;
     }
 
-    console.log(position);
-
-    if (position == chain.length) {
+    if (eventP == chain.length) {
       document.body.classList.remove(&quot;public&quot;);
     }
   });
